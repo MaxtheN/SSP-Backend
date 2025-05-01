@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="320" viewBox="0 0 246.775 339.779">
+  <g id="Il2" transform="translate(-161.001 338.772) rotate(-90)">
+    <g id="Group_6954" data-name="Group 6954" transform="translate(220.483 279.274) rotate(90)">
+      <ellipse id="Ellipse_21" data-name="Ellipse 21" cx="10.857" cy="10.857" rx="10.857" ry="10.857" transform="translate(65.14 71.528)" fill="#00b894"/>
+      <ellipse id="Ellipse_22" data-name="Ellipse 22" cx="10.857" cy="10.857" rx="10.857" ry="10.857" transform="translate(43.427 49.812)" fill="#00b894"/>
+      <ellipse id="Ellipse_26" data-name="Ellipse 26" cx="10.857" cy="10.857" rx="10.857" ry="10.857" transform="translate(21.713 71.526)" fill="#00b894"/>
+      <ellipse id="Ellipse_27" data-name="Ellipse 27" cx="10.857" cy="10.857" rx="10.857" ry="10.857" transform="translate(43.427 93.238)" fill="#00b894"/>
+      <ellipse id="Ellipse_29" data-name="Ellipse 29" cx="10.857" cy="10.857" rx="10.857" ry="10.857" transform="translate(21.713 114.951)" fill="#00b894"/>
+      <ellipse id="Ellipse_30" data-name="Ellipse 30" cx="10.857" cy="10.857" rx="10.857" ry="10.857" transform="translate(65.14 114.951)" fill="#00b894"/>
+      <ellipse id="Ellipse_33" data-name="Ellipse 33" cx="8.302" cy="8.302" rx="8.302" ry="8.302" transform="translate(45.981 141.778)" fill="#00b894"/>
+      <ellipse id="Ellipse_35" data-name="Ellipse 35" cx="7.025" cy="7.025" rx="7.025" ry="7.025" transform="translate(25.545 160.379)" fill="#00b894"/>
+      <ellipse id="Ellipse_36" data-name="Ellipse 36" cx="7.025" cy="7.025" rx="7.025" ry="7.025" transform="translate(68.972 160.379)" fill="#00b894"/>
+      <ellipse id="Ellipse_39" data-name="Ellipse 39" cx="7.025" cy="7.025" rx="7.025" ry="7.025" transform="translate(47.259 180.095)" fill="#00b894"/>
+      <ellipse id="Ellipse_66" data-name="Ellipse 66" cx="3.193" cy="3.193" rx="3.193" ry="3.193" transform="translate(32.571 190.953)" fill="#00b894"/>
+      <ellipse id="Ellipse_67" data-name="Ellipse 67" cx="3.193" cy="3.193" rx="3.193" ry="3.193" transform="translate(47.897 205.863)" fill="#00b894"/>
+    </g>
+    <path id="Path_203" data-name="Path 203" d="M131.682,73.094s-1.407-25.861-22.457-48.977-42.673-4.571-56.388-7.2S31.784,1.78,31.784,1.78,23.9,12.06,18.951,14.8c-5.034,2.777-14.319,3.38-16.618,3.859,13.1,3.51,24.388,22.216,25.3,30.923s.152,25.411.152,25.411l20.574,6,22.08,27.316,55.931-11.829C140.356,93.521,131.682,73.094,131.682,73.094Z" transform="translate(146.919 345.819) rotate(-54)" fill="#d9e5e6"/>
+    <path id="Path_202" data-name="Path 202" d="M4.239,12.055C-3.346,25.157-.889,55.85,17.112,74.434S57.317,97.863,86.648,90s49.416-17.448,52.706-31.816-7.429-28.2-21.756-26.408-35.364,5.412-55.42.576S40.306,18.387,30.343,8,11.825-1.048,4.239,12.055Z" transform="translate(197.911 371.379) rotate(-67)" fill="#003d45"/>
+    <rect id="Rectangle_110" data-name="Rectangle 110" width="26.613" height="145.293" rx="5" transform="matrix(-0.259, -0.966, 0.966, -0.259, 115.699, 224.312)" fill="#003d45"/>
+    <rect id="Rectangle_109" data-name="Rectangle 109" width="42.429" height="145.293" rx="5" transform="matrix(-0.259, -0.966, 0.966, -0.259, 121.552, 246.157)" fill="#00b894"/>
+    <path id="Path_206" data-name="Path 206" d="M5.042,30.244c5.043,7.2,15.451,17.351,15.451,12.6s-5.112-8.5-6.116-12.6,2.1-3.818,2.1-3.818,15.514-.145,23.821,3.818a16.911,16.911,0,0,1,9.41,12.035S56.45,29.424,53.74,20.16,46.414,9.721,37.076,4.607s-24.342-4.724-30.329,0S0,23.048,5.042,30.244Z" transform="translate(115.223 235.278) rotate(-90)" fill="#d9e5e6"/>
+    <path id="Path_204" data-name="Path 204" d="M48.194,170.67s21.348.7,25.684-24.109c2.936-16.793,3.62-43.741-1.836-97.458l78.276,82.43a11.34,11.34,0,0,0,14.318-1.935c7-6.891,3.46-13.885,3.46-13.885S111.248,22.294,74.748,3.67,28.306,41.761,24.469,73.629c-2.232,18.537-3.243,38.528-3.243,63.818S36.28,170.67,48.194,170.67" transform="translate(0 384.557) rotate(-90)" fill="rgba(255,255,255,0)" stroke="#003d45" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_16" data-name="Line 16" y1="9" x2="31" transform="translate(205.5 193.156)" fill="none" stroke="#d9e5e6" stroke-linecap="round" stroke-width="6"/>
+    <circle id="Ellipse_68" data-name="Ellipse 68" cx="3.5" cy="3.5" r="3.5" transform="translate(192 201.182)" fill="#d9e5e6"/>
+  </g>
+</svg>

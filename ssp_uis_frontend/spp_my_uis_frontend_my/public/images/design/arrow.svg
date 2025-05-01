@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="40" viewBox="0 0 56 40">
+  <g id="Arrow" transform="translate(0 40) rotate(-90)">
+    <rect id="Frame" width="40" height="56" fill="rgba(255,255,255,0)"/>
+    <path id="Arrow_Icon" data-name="Arrow Icon" d="M0,0,8,8l8-8" transform="translate(12 26)" fill="none" stroke="#002429" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

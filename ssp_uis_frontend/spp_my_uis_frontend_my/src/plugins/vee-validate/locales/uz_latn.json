@@ -1,0 +1,31 @@
+{
+    "code": "uz_latn",
+    "messages": {
+        "alpha": "{_field_} maydonida faqat harflar boʻlishi mumkin",
+        "alpha_dash": "{_field_} maydonida faqat harflar, raqamlar va defis bo'lishi mumkin",
+        "alpha_num": "{_field_} maydonida faqat harflar va raqamlar bo'lishi mumkin",
+        "alpha_spaces": "{_field_} maydonida faqat harflar va boʻshliqlar boʻlishi mumkin",
+        "between": "{_field_} maydoni {min} va {max} orasida boʻlishi kerak",
+        "confirmed": "{_field_} maydoni {target} maydoniga mos emas",
+        "digits": "{_field_} maydoni raqamli va uzunligi {length} boʻlishi kerak",
+        "dimensions": "{_field_} maydoni {width} piksel {height} piksel boʻlishi kerak",
+        "email": "{_field_} maydoni toʻgʻri elektron pochta manzili boʻlishi kerak",
+        "excluded": "{_field_} maydoni toʻgʻri qiymat boʻlishi kerak",
+        "ext": "{_field_} maydoni yaroqli fayl boʻlishi kerak. ({args})",
+        "image": "{_field_} maydoni rasm boʻlishi kerak",
+        "oneOf": "{_field_} maydoni toʻgʻri qiymat boʻlishi kerak",
+        "integer": "{_field_} maydoni butun son boʻlishi kerak",
+        "length": "{_field_} maydoni uzunligi {length} boʻlishi kerak",
+        "max": "{_field_} maydoni {length} belgidan oshmasligi kerak",
+        "max_value": "{_field_} maydoni {max} yoki undan kam boʻlishi kerak",
+        "mimes": "{_field_} maydoni yaroqli fayl turiga ega boʻlishi kerak. ({args})",
+        "min": "{_field_} maydoni kamida {length} belgidan iborat boʻlishi kerak",
+        "min_value": "{_field_} maydoni {min} yoki kattaroq boʻlishi kerak",
+        "numeric": "{_field_} maydoni raqam bo'lishi kerak",
+        "regex": "{_field_} maydoni xato formatga ega",
+        "required": "{_field_} maydonini kiritish shart",
+        "required_if": "{_field_} maydonini kiritish shart",
+        "size": "{_field_} maydoni {size} KB dan kam boʻlishi kerak",
+        "double": "{_field_} maydoni yaroqli oʻnlik son boʻlishi kerak"
+    }
+}

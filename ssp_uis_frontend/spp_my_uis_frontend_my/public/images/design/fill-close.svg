@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <g id="Close_Button" data-name="Close Button" transform="translate(8 8)">
+    <g id="Frame" transform="translate(-8 -8)" fill="rgba(255,255,255,0)" stroke="#707070" stroke-width="0">
+      <rect width="72" height="72" stroke="none"/>
+      <rect x="0.5" y="0.5" width="71" height="71" fill="none"/>
+    </g>
+    <g id="Close_Icon" data-name="Close Icon" transform="translate(16 16)">
+      <g id="Ellipse_5" data-name="Ellipse 5" fill="#002429" stroke="#101229" stroke-width="2">
+        <circle cx="12" cy="12" r="12" stroke="none"/>
+        <circle cx="12" cy="12" r="11" fill="none"/>
+      </g>
+      <path id="Path_16" data-name="Path 16" d="M-672,84l-4,4,4-4-4-4,4,4,4-4-4,4,4,4Z" transform="translate(684 -72)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

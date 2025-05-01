@@ -1,0 +1,580 @@
+// @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Museo Sans';
+    src: url('@/assets/fonts/MuseoSansCyrl500Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import './variables.scss';
+/* X ICON */
+@import './styles.scss';
+
+* {
+    font-family: 'Museo Sans', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #333;
+}
+.input-color-label {
+    color: $input-text-color;
+}
+
+/* NAVBAR */
+.my-navbar {
+    min-height: $navbar-height;
+    z-index: 11;
+    border-bottom: 0.1em solid $navbar-bottom-color;
+    border-radius: 25px;
+    background: #fff;
+    /* shadow */
+    box-shadow: 5px 0px 25px 0px rgba(0, 0, 0, 0.1);
+
+    &.fixed {
+        position: fixed;
+        top: 4%;
+        left: 0;
+        right: 0;
+    }
+
+    .right-pos {
+        // margin-right: 10px;
+        .language {
+            width: $navbar-language-width;
+            height: 100%;
+
+            .my-dropdown {
+                position: relative;
+
+                .my-dropdown-title {
+                    font-size: 14px;
+                    background-color: #f6f6f6;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    font-family: Golos;
+                    color: $primary-darken;
+                }
+
+                .dropdown-content {
+                    z-index: 3;
+                    position: absolute;
+                    width: 134px;
+                    min-height: 60px;
+                    background-color: #fff;
+                    top: 40px;
+                    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                    border-radius: 16px;
+
+                    ul {
+                        list-style-type: none;
+                        padding: 0;
+
+                        li {
+                            font-size: 14px;
+                            padding-left: 20px;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            cursor: pointer;
+                            transition: 0.4s;
+
+                            &:hover {
+                                color: #ffa500;
+                                transition: 0.4s;
+                            }
+                        }
+
+                        .active {
+                            color: #ffa500;
+                        }
+                    }
+                }
+            }
+        }
+
+        .account {
+            min-width: 48px;
+            height: 100%;
+            // padding-left: 20px;
+            // padding-right: 20px;
+            padding: 16px 8px;
+            cursor: pointer;
+            font-size: 14px;
+
+            span {
+                font-size: 12px;
+                color: $primary-darken;
+            }
+        }
+
+        .bell {
+            position: relative;
+
+            .my-badge {
+                min-width: 18px;
+                height: 15px;
+                position: absolute;
+                background-color: #0669b4;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: 16px;
+                right: 4px;
+                border-radius: 50%;
+                font-size: 12px;
+                color: white;
+            }
+        }
+    }
+}
+
+.my-navbar .left-pos {
+    width: $navbar-left-pos;
+    margin-left: 24px;
+    height: 100%;
+
+    .orgname {
+        min-width: calc(#{$navbar-left-pos} - #{$navbar-logo-width});
+        height: 100%;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-left: 16px;
+        font-family: Montserrat-extrabold;
+        color: $primary-darken;
+    }
+}
+
+//New style card
+
+//the end
+.my-navbar .left-pos .logo {
+    width: $navbar-logo-width;
+    height: 100%;
+}
+
+.my-navbar .left-pos .hr {
+    width: 1px;
+    height: 100%;
+    background-color: #9ac6fa;
+}
+
+.dropdown-open-enter-active {
+    transition: all 0.3s ease;
+}
+
+.dropdown-open-leave-active {
+    transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.dropdown-open-enter,
+.dropdown-open-leave-to {
+    transform: translateX(10px);
+    opacity: 0;
+}
+
+//SIDEBAR
+.close-icon {
+    text-align: right;
+    width: 100%;
+    margin-right: 16px;
+
+    // margin-top: 16px;
+    img {
+        cursor: pointer;
+    }
+}
+
+.login_img-right {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.login_img-right2 {
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+
+    border-radius: 8px;
+}
+
+.info_title {
+    padding: 1.5rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+    .subtitle {
+        padding-top: 2rem;
+        color: white;
+        font-size: 35px;
+        font-weight: 700;
+    }
+}
+
+// Content
+
+.my-content {
+    // padding-top: $navbar-height;
+    z-index: 0;
+    min-height: 75vh;
+}
+
+// CARD SECTION
+.card-section {
+    // width: 100%;
+    // margin-left: 0;
+
+    .my-col {
+        &:nth-child(odd) {
+            padding-left: 32px;
+            padding-bottom: 32px;
+            padding-right: 0;
+        }
+
+        &:nth-child(even) {
+            padding-left: 32px;
+            padding-bottom: 32px;
+        }
+
+        .row {
+            background-color: $card-bg;
+            padding: 64px;
+            border-radius: 32px;
+            transition: 0.4s;
+
+            &:hover {
+                background-color: $success-light;
+                transition: 0.4s;
+
+                .col {
+                    &:nth-child(1) {
+                        div {
+                            &:nth-child(2) {
+                                img {
+                                    visibility: visible;
+                                    transition: 0.4s;
+                                    cursor: pointer;
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .col {
+                &:nth-child(1) {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                }
+
+                div {
+                    &:nth-child(2) {
+                        img {
+                            visibility: hidden;
+                            margin-left: -50px;
+                            // transition: 0.4s;
+                        }
+                    }
+                }
+            }
+
+            div {
+                font-size: 36px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .myButton {
+        width: 130px;
+    }
+}
+
+.myButton {
+    width: 150px;
+}
+
+//Card Application Style
+.pricing-box {
+    background: #858586;
+    box-shadow: $box-shadow;
+    margin-bottom: 30px;
+    border-radius: 24px !important;
+    position: relative;
+    overflow: visible;
+    color: white;
+
+    .pricing-icon-bg {
+        background: rgba($primary, 0.12);
+        color: $primary;
+        display: block;
+        height: 80px;
+        width: 80px;
+        line-height: 100px;
+        margin: 0 auto;
+        border-radius: 20% 20% 4% 20% / 20% 20% 4% 20%;
+        box-shadow: 0 0 0 7px rgba($primary, 0.03);
+        transition: all 0.5s;
+    }
+
+    .pricing-item {
+        li {
+            padding: 10px 0;
+        }
+    }
+
+    .pr-btn {
+        position: relative;
+        z-index: 1;
+    }
+
+    &:hover,
+    &.active {
+        .pricing-icon-bg {
+            background-color: $primary;
+            box-shadow: 0 0 0 7px rgba($primary, 0.06);
+            color: $white;
+            border-radius: 4% 20% 20% 20% / 4% 20% 20% 20%;
+        }
+    }
+}
+
+.hero-bottom-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+//REGISTER
+
+.my-register-page {
+    width: 100%;
+    height: 100%;
+
+    .my-container {
+        width: 1184px;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 600px;
+
+        .row {
+            .col {
+                h1 {
+                    color: $primary-dark;
+                    margin-top: 64px;
+                    font-size: 48px;
+                }
+
+                .register-icon {
+                    width: 320px;
+                    margin-top: 32px;
+                    height: 84px;
+
+                    .parent-icon {
+                        text-align: center;
+
+                        .parent-text {
+                            font-size: 15px;
+                            text-align: center;
+                            color: $primary-dark;
+                        }
+                    }
+
+                    .child-icon {
+                        text-align: center;
+                        color: $no-active-child-color;
+
+                        .parent-text {
+                            font-size: 15px;
+                            text-align: center;
+                            color: $no-active-child-color;
+                        }
+                    }
+
+                    .hr-horizontal {
+                        width: 64px;
+                        height: 100%;
+
+                        div {
+                            width: 100%;
+                            height: 2px;
+                            background-color: #d9e5e6;
+                        }
+                    }
+                }
+            }
+        }
+
+        .info-text-live {
+            .col {
+                span {
+                    color: $success;
+                }
+            }
+        }
+
+        .real-live-place .col p {
+            font-size: 24px;
+            margin-left: 16px;
+            margin-top: 32px;
+
+            span {
+                span {
+                    font-size: 14px;
+                    color: $success;
+                }
+            }
+        }
+
+        .child-hr-line {
+            margin-top: 32px;
+            margin-bottom: 32px;
+
+            div.col {
+                div {
+                    margin-left: 24px;
+                    margin-right: 24px;
+                    // width: 100%;
+                    height: 1px;
+                    background-color: #d9e5e6;
+                }
+            }
+        }
+
+        .child-card {
+            width: 100%;
+            border-radius: 18px;
+            background-color: $card-bg;
+            padding: 32px;
+            position: relative;
+            margin-bottom: 48px;
+
+            div.child-name {
+                span {
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    color: $input-text-color;
+                }
+
+                h3 {
+                    font-size: 24px;
+                    color: $primary-dark;
+                }
+            }
+
+            .child-other-info {
+                div {
+                    width: 136px;
+
+                    span {
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        color: $input-text-color;
+                    }
+
+                    h5 {
+                        font-size: 15px;
+                        color: $primary-dark;
+                    }
+                }
+            }
+
+            .child-clear-icon {
+                position: absolute;
+                top: 10px;
+                right: -8px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// OFERTA
+
+.oferta {
+    width: 100%;
+
+    .oferta-container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .row {
+            .col {
+                h1 {
+                    margin-top: 48px;
+                    font-weight: 900;
+                    font-size: 40px;
+                    font-family: Golos;
+                    color: $primary-dark;
+                }
+
+                p {
+                    color: $primary-dark;
+                }
+
+                h5 {
+                    color: $primary-dark;
+                }
+
+                position: relative;
+
+                .oferta-card {
+                    width: 100%;
+                    height: 600px;
+                    overflow-y: scroll;
+                    background-color: $oferta-card-bg;
+                    padding: 16px 8px;
+                    border-radius: 12px;
+                }
+
+                .soglasen {
+                    position: absolute;
+                    right: -248px;
+                    bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+.my-top-search {
+    position: relative;
+
+    .my-top-search-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+
+        .my-search-input {
+            margin-top: 32px;
+            padding: 8px 10px;
+            font-size: 32px;
+            outline: none;
+            border: none;
+        }
+    }
+}
+
+@import './responsive.scss';

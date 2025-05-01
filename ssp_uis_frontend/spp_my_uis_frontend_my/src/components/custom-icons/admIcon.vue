@@ -1,0 +1,31 @@
+<template>
+  <div :class="`${active ? 'adm-icon' : ''}`">
+      <svg id="Search_Icon" data-name="Search Icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+        <rect id="Frame" width="32" height="32" fill="rgba(255,255,255,0)"/>
+        <path id="Path_432" data-name="Path 432" d="M6457.771,21908.035l4.955,5.143s0,6.277,0,9.551a3.205,3.205,0,0,1-3.273,3.271h-8.182a3.205,3.205,0,0,1-3.273-3.271v-11.455a3.2,3.2,0,0,1,3.273-3.273Z" transform="translate(-6439 -21901.002)" fill="none" stroke="#002429" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+      </svg>
+  </div>
+</template>
+
+<script>
+export default {
+    props : {
+        active : {
+            type : Boolean,
+            default : false
+        }
+    }
+}
+</script>
+
+<style lang="scss" scope>
+@import '../../assets/styles/variables.scss';
+.adm-icon{
+    svg{
+        path{
+            fill: $success;
+            stroke : $success;
+        }
+    }
+}
+</style>

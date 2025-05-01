@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25">
+  <g id="Calendar_Icon" data-name="Calendar Icon" transform="translate(0 1)">
+    <g id="Rectangle_117" data-name="Rectangle 117" transform="translate(0 4)" fill="none" stroke="#003d45" stroke-width="2">
+      <rect width="24" height="20" rx="6" stroke="none"/>
+      <rect x="1" y="1" width="22" height="18" rx="5" fill="none"/>
+    </g>
+    <line id="Line_23" data-name="Line 23" y2="8" transform="translate(7)" fill="none" stroke="#003d45" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_24" data-name="Line 24" y2="8" transform="translate(17)" fill="none" stroke="#003d45" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

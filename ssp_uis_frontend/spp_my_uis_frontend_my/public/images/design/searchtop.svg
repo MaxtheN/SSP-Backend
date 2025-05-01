@@ -1,0 +1,10 @@
+<svg id="Search_Icon" data-name="Search Icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect id="Frame" width="32" height="32" fill="rgba(255,255,255,0)"/>
+  <g id="Group_6960" data-name="Group 6960" transform="translate(10 10)">
+    <g id="Ellipse_99" data-name="Ellipse 99" transform="translate(-4 -4)" fill="rgba(255,255,255,0)" stroke="#002429" stroke-width="1.6">
+      <ellipse cx="8" cy="8" rx="8" ry="8" stroke="none"/>
+      <ellipse cx="8" cy="8" rx="7.2" ry="7.2" fill="none"/>
+    </g>
+    <line id="Line_43" data-name="Line 43" x1="7" y1="7" transform="translate(9 9)" fill="none" stroke="#002429" stroke-linecap="round" stroke-width="1.6"/>
+  </g>
+</svg>

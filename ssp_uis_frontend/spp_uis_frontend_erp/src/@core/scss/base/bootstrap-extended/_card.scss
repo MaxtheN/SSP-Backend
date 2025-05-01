@@ -1,0 +1,168 @@
+.card {
+  border: none;
+  margin-bottom: $content-padding;
+  box-shadow: $box-shadow;
+  transition: all 0.3s ease-in-out, background 0s, color 0s, border-color 0s;
+  .card {
+    box-shadow: none !important;
+  }
+  .card-title {
+    font-weight: 500;
+    font-size: 1.285rem;
+    margin-bottom: 1.53rem; // Considering sub-title minus margin
+  }
+  .card-bordered {
+    border: $card-border-width solid $card-border-color;
+  }
+  .card-img {
+    object-fit: cover;
+  }
+  .card-img-overlay {
+    border-radius: $card-border-radius;
+  }
+
+  //fullscreen card
+  &.card-fullscreen {
+    display: block;
+    z-index: 9999;
+    position: fixed;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: auto;
+  }
+  .card-body[class*='border-bottom-'] {
+    border-bottom-width: 2px !important;
+  }
+  .card-img-overlay {
+    &.bg-overlay {
+      background: rgba($black, 0.45);
+    }
+    .text-muted {
+      color: $gray-800 !important;
+    }
+  }
+  &.card-minimal {
+    border: none;
+    box-shadow: none;
+  }
+
+  .card-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: none;
+    padding: 1.5rem;
+    background-color: transparent;
+    .card-title {
+      margin-bottom: 0;
+    }
+
+    .heading-elements {
+      position: relative;
+      top: -1px;
+
+      li:not(:first-child) a {
+        margin-left: 0.75rem;
+      }
+
+      a {
+        &.btn {
+          padding-top: 6px;
+          padding-bottom: 6px;
+        }
+        i,
+        svg {
+          height: 1rem;
+          width: 1rem;
+          font-size: 1rem;
+        }
+        &[data-action='collapse'] {
+          i,
+          svg {
+            transition: all 0.25s ease-out;
+            display: inline-block;
+          }
+          &.rotate {
+            i,
+            svg {
+              transform: rotate(-180deg);
+            }
+          }
+        }
+      }
+    }
+
+    & + .card-content > .card-body:first-of-type,
+    & + .card-body {
+      padding-top: 0px;
+    }
+  }
+  .card-footer {
+    border-top: 1px solid $gray-300;
+    background-color: transparent;
+  }
+}
+// Card Column
+.card-columns {
+  .card {
+    margin-bottom: $spacer * 2.2;
+  }
+}
+
+.card-group,
+.card-deck {
+  margin-bottom: 0.75rem;
+}
+
+.card-head-inverse {
+  .heading-elements {
+    i,
+    svg {
+      color: $white;
+    }
+  }
+  color: $white;
+}
+.card-transparent {
+  background-color: transparent;
+}
+
+.text-white {
+  .card-img-overlay {
+    .text-muted {
+      color: $white !important;
+    }
+  }
+  code {
+    background-color: rgba($white, 1);
+  }
+  .heading-elements {
+    i,
+    svg {
+      color: $white;
+    }
+  }
+}
+
+// overlay-img-card
+.overlay-img-card {
+  .card-img-overlay,
+  img {
+    max-height: 34.64rem;
+  }
+}
+
+// IE Specific CSS
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  // img-fluid class
+  .card-body,
+  .card-content {
+    min-height: 1px;
+  }
+}

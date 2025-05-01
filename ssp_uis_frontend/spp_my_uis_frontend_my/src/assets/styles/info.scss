@@ -1,0 +1,94 @@
+@import './variables.scss';
+
+.cl-stages-accepting-applications{
+  width: 736px;
+  min-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  
+  p{
+    font-size: 48px;
+    color: $primary-dark;
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+  .cl-title{
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .cl-img{
+    float: right;
+  }
+  .cl-row{
+    
+    p{
+      line-height: 1.2;
+    }
+  }
+  .cl-article-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: $success;
+    margin-bottom: 20px;
+  }
+}
+.c-card-section{
+  padding-left: 10px;
+  padding-right: 10px;
+  .c-my-col{
+    .row{
+      background-color: $card-bg;
+      border-radius: 32px;
+      transition: 0.4s;
+      .col{
+        height: 160px;
+      }
+      .col{
+        &:nth-child(1){
+          display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+        }
+      }
+      div{
+        font-size: 24px;
+      }
+     
+    }
+    
+  }
+}
+
+@media only screen and (max-width: 760px){
+  .cl-stages-accepting-applications{
+    width : 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    .row{
+      &:nth-child(1){
+        .col-md-6{
+          &:nth-child(2){
+            img {
+               display: none !important;
+            }
+          }
+        }
+      }
+    }
+    p{
+      font-size: 36px;
+    }
+  }
+}
+@media only screen and (max-width: 400px){
+  .cl-stages-accepting-applications{
+    p{
+      font-size: 28px;
+    }
+  }
+}
+@media screen and (max-width: 920px){
+.c-card-section .c-my-col .row .col {
+    height: 160px!important;
+}}

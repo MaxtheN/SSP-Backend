@@ -1,0 +1,23 @@
+.report-table {
+   thead {
+      th {
+         text-align: center;
+         vertical-align: middle;
+      }
+   }
+
+   td {
+      white-space: nowrap;
+      padding: 0.6rem 0.7rem !important;
+   }
+
+   .table:not(.table-dark) {
+      td,
+      th {
+         border: 1px solid #ebe9f1 !important;
+      }
+   }
+}
+.r-0 {
+   right: 0;
+}

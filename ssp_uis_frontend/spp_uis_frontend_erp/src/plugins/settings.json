@@ -1,0 +1,14 @@
+{
+	"app_name": "erp.chamber.uz",
+	"app_short_name": "ND",
+	"app_made_by_1": "erp.chamber.uz",
+	"app_made_by_2": "erp.chamber.uz",
+	"api_url": "erp.chamber.uz",
+	"api_request_type": "https",
+	"app_test": true,
+	"api_keys": [
+		"erp.chamber.uz","B5AB92757FF2914254CC9BA9A581859371DE4D916BB5BEB57764F8B6D064CDDE336D83FA3743A724E96DBF39515B905C4EB0097B1F03854B53BADE5A67908DBE"
+	],
+	"app_version": "1.0.2",
+	"call_center_number": "+998 78 122 99 07"
+}

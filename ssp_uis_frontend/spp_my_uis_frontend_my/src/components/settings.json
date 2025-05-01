@@ -1,0 +1,14 @@
+{
+	"app_name": "my.chamber.uz",
+	"app_short_name": "ND",
+	"app_made_by_1": "my.chamber.uz",
+	"app_made_by_2": "my.chamber.uz",
+	"api_url": "my.chamber.uz",
+	"api_request_type": "https",
+	"app_test": true,
+	"api_keys": [
+		"my.chamber.uz","8AB5E4F887D1EE74A2180FF60C7AB02DB91970FDCC191C56B5FD08385AA3A557BC500B641CF954CF38EB955A49E94112E63BD8F9400BEB990EC4CCB056BE9EE7"
+	],
+	"app_version": "1.0.2",
+	"call_center_number": "+998 78 122 99 07"
+}

@@ -1,0 +1,57 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.table thead th,
+.table tfoot th {
+   text-transform: unset !important;
+}
+
+tr.bottom-color-red td {
+   border-bottom: 2px solid red !important;
+}
+
+.form-group {
+   input {
+      margin: 0 !important;
+   }
+
+   // label {
+   //   margin-bottom: 10px !important;
+   // }
+}
+
+/*
+  Fix an issue in vue-bootstrap v2.22.0:
+  https://github.com/bootstrap-vue/bootstrap-vue/issues/6961 */
+.b-table-sticky-header > .table.b-table > thead > tr > th {
+   position: sticky !important;
+}
+.simple-table {
+   overflow-y: auto;
+}
+@media only screen and (max-width: 768px) {
+   .order-left {
+      order: 2;
+      justify-content: space-between !important;
+      margin-bottom: 0 !important;
+   }
+   .order-right {
+      order: 1;
+      margin-bottom: 1rem;
+   }
+   .button-group-mob {
+      overflow-x: auto;
+   }
+
+   .order-1 {
+      order: 1;
+      margin-bottom: 1rem;
+   }
+   .order-2 {
+      order: 2;
+   }
+}

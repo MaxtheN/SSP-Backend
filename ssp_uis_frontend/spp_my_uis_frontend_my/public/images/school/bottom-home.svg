@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="220" viewBox="0 0 220 220">
+  <defs>
+    <filter id="Path_7" x="0" y="0" width="220" height="220" filterUnits="userSpaceOnUse">
+      <feOffset dy="16" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="32" result="blur"/>
+      <feFlood flood-color="#005b67" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#55efc4"/>
+      <stop offset="1" stop-color="#00a7bc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a7bc"/>
+      <stop offset="1" stop-color="#002e34"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon" transform="translate(96 80)">
+    <g transform="matrix(1, 0, 0, 1, -96, -80)" filter="url(#Path_7)">
+      <path id="Path_7-2" data-name="Path 7" d="M6.16,0H21.84A6.16,6.16,0,0,1,28,6.16V21.84A6.16,6.16,0,0,1,21.84,28H6.16A6.16,6.16,0,0,1,0,21.84V6.16A6.16,6.16,0,0,1,6.16,0Z" transform="translate(96 80)" fill="#fff" opacity="0"/>
+    </g>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="12.956" cy="12.956" rx="12.956" ry="12.956" transform="translate(0 0.183)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="6.015" cy="6.015" r="6.015" transform="translate(15.879 15.97)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

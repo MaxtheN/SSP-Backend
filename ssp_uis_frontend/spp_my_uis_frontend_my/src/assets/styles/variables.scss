@@ -1,0 +1,68 @@
+/*VARIABLES*/
+$navbar-height: 105px;
+$navbar-left-pos: 290px;
+$navbar-logo-width: 46px;
+$navbar-right-width: 700px;
+$navbar-language-width: 78px;
+$primary-darken: #2a82c4;
+$primary-dark: #000;
+$success: #219653;
+$success-light: #c4d8ff;
+$input-text-color: #868e8f;
+$input-text-placeholder: #a7bbbd;
+$navbar-bottom-color: #f0f9fa;
+$card-bg: #f7f7f7;
+$no-active-child-color: #acc9cd;
+$oferta-card-bg: #f5f5f5;
+$vs-state-active-bg: #2a82c4;
+$progress-primary: #00a7bc;
+$progress-success: #00b894;
+$map-search-width: 513px;
+$info: #188ef6;
+$primary: #0669b4;
+$danger: #e52e2e;
+$warning: #ff9500;
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1360px
+) !default;
+
+$border-color: #d5d7e1 !default;
+$headings-color: #2a3547 !default;
+$dark: #4b4b4b !default;
+
+// Tables
+
+$table-cell-padding: 0.72rem !default;
+
+$table-accent-bg: #e3eaf39d !default;
+$table-hover-bg: #b0c8eb !default;
+
+$table-border-color: $border-color !default;
+
+$table-head-bg: #f6f6f7 !default;
+$table-head-color: $headings-color !default;
+
+$table-dark-bg: $dark !default;
+$table-dark-border-color: #404040 !default;
+
+$table-th-font-size: 0.857rem !default; // custom
+
+$pagination-font-size-lg: 1.14rem !default; // custom
+$pagination-font-size-sm: 0.857rem !default; // custom
+$border-radius-sm: 0.5rem;
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 2
+);
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';

@@ -1,0 +1,336 @@
+<template>
+   <b-card no-body>
+      <div class="m-2">
+         <b-row>
+            <b-col cols="12" md="6" class="d-flex align-items-center justify-content-start mb-1 mb-md-0 order-left">
+               <v-select
+                  v-model="filter.pageSize"
+                  :dir="$store.state.appConfig.isRTL ? 'rtl' : 'ltr'"
+                  :options="filter.perPageOptions"
+                  :clearable="false"
+                  @input="Refresh"
+                  class="per-page-selector d-inline-block mr-1"
+               />
+            </b-col>
+            <b-col md="2"></b-col>
+            <b-col cols="12" md="4" class="order-right">
+               <b-input-group class="text-right">
+                  <b-form-input v-model="filter.search" @keyup.enter="Refresh" :placeholder="$t('search')" />
+                  <b-input-group-append>
+                     <b-button @click="Refresh" variant="primary">
+                        <feather-icon icon="SearchIcon" />
+                     </b-button>
+                  </b-input-group-append>
+               </b-input-group>
+            </b-col>
+         </b-row>
+      </div>
+
+      <b-table
+         ref="refInvoiceListTable"
+         :items="items"
+         responsive
+         :fields="fields"
+         primary-key="id"
+         sticky-header="65vh"
+         no-border-collapse
+         :busy="isBusy"
+         show-empty
+         :empty-text="$t('NotFound')"
+         class="position-relative"
+         @sort-changed="SortChange"
+         @row-dblclicked="DbClick"
+         :selectable="selectable"
+      >
+         <template #cell(status)="{ item }">
+            <b-badge :variant="item.stateId == '2' ? 'light-danger' : 'light-success'">{{ item.state }}</b-badge>
+         </template>
+         <template #cell(workPhoneNumber)="{ item }">
+            <p>{{ item.workPhoneNumber }}</p>
+         </template>
+         <template #cell(actions)="{ item }">
+            <b-link
+               :to="{ name: 'ViewContractor', params: { id: item.id } }"
+               v-b-tooltip.hover.top="$t('View')"
+               style="margin-right: 5px"
+            >
+               <feather-icon icon="EyeIcon"></feather-icon>
+            </b-link>
+         </template>
+         <template v-slot:table-busy>
+            <div class="text-center text-primary my-2" style="vertical-align: middle">
+               <b-spinner class="align-middle mr-2"></b-spinner>
+               <strong>{{ $t('Loading') }}</strong>
+            </div>
+         </template>
+      </b-table>
+
+      <div class="mx-2 mb-2">
+         <b-row>
+            <b-col cols="12" sm="6" class="d-flex align-items-center justify-content-center justify-content-sm-start">
+               <span class="text-muted">
+                  {{ $t('Showing') }} {{ firstNumber }} {{ $t('to') }} {{ lastNumber }} {{ $t('of') }}
+                  {{ filter.total }}
+                  {{ $t('entries') }}
+               </span>
+            </b-col>
+            <!-- Pagination -->
+            <b-col cols="12" sm="6" class="d-flex align-items-center justify-content-center justify-content-sm-end">
+               <b-pagination
+                  v-model="filter.page"
+                  :total-rows="filter.total"
+                  :per-page="filter.pageSize"
+                  first-number
+                  last-number
+                  @input="Refresh"
+                  class="mb-0 mt-1 mt-sm-0"
+                  prev-class="prev-item"
+                  next-class="next-item"
+               >
+                  <template #prev-text>
+                     <feather-icon icon="ChevronLeftIcon" size="18" />
+                  </template>
+                  <template #next-text>
+                     <feather-icon icon="ChevronRightIcon" size="18" />
+                  </template>
+               </b-pagination>
+            </b-col>
+         </b-row>
+      </div>
+   </b-card>
+</template>
+
+<script>
+import {
+   BButton,
+   BPagination,
+   BTable,
+   BCol,
+   VBTooltip,
+   VBModal,
+   BRow,
+   BSpinner,
+   BCard,
+   BTooltip,
+   BBadge,
+   BInputGroup,
+   BFormInput,
+   BInputGroupAppend,
+   BLink,
+   BModal,
+   BCardText
+} from 'bootstrap-vue';
+import ContractorService from '@/services/info/contractor.service';
+
+export default {
+   components: {
+      BButton,
+      BPagination,
+      BTable,
+      BCol,
+      BRow,
+      BSpinner,
+      BCard,
+      BTooltip,
+      BBadge,
+      BInputGroup,
+      BFormInput,
+      BInputGroupAppend,
+      BLink,
+      BModal,
+      BCardText
+   },
+   emits: ['row-selected'],
+   props: {
+      selectable: {
+         type: Boolean,
+         default: false
+      }
+   },
+   directives: {
+      'b-tooltip': VBTooltip,
+      'b-modal': VBModal
+   },
+   data() {
+      return {
+         items: [],
+         fields: [
+            {
+               key: 'id',
+               label: this.$t('id'),
+               thClass: 'text-center',
+               tdClass: 'text-center',
+               sortable: true
+            },
+            // {
+            //   key: "code",
+            //   label: this.$t('code'),
+            //   thClass: "text-center",
+            //   tdClass: "text-center",
+            //   sortable: true,
+            // },
+            {
+               key: 'fullName',
+               label: this.$t('fullname'),
+               thClass: 'text-center',
+               sortable: true
+            },
+            {
+               key: 'shortName',
+               label: this.$t('shortname'),
+               thClass: 'text-center',
+               sortable: true
+            },
+
+            {
+               key: 'country',
+               label: this.$t('Country'),
+               thClass: 'text-center',
+               sortable: true
+            },
+            {
+               key: 'region',
+               label: this.$t('region'),
+               thClass: 'text-center',
+               sortable: true
+            },
+            {
+               key: 'district',
+               label: this.$t('Region'),
+               thClass: 'text-center',
+               sortable: true
+            },
+            {
+               key: 'address',
+               label: this.$t('address'),
+               thClass: 'text-center',
+               sortable: true
+            },
+            {
+               key: 'director',
+               label: this.$t('director'),
+               thClass: 'text-center',
+               sortable: true
+            },
+            {
+               key: 'workPhoneNumber',
+               label: this.$t('number'),
+               thClass: 'text-center',
+               sortable: true,
+               thStyle: {
+                  minWidth: '200px'
+               }
+            },
+            {
+               key: 'innOrPinfl',
+               label: this.$t('innOrPinfl'),
+               thClass: 'text-center',
+               sortable: true
+            },
+
+            {
+               key: 'registrationDate',
+               label: this.$t('registrationDate'),
+               thClass: 'text-center',
+               sortable: true
+            },
+
+            {
+               key: 'oked',
+               label: this.$t('Oked'),
+               thClass: 'text-center',
+               sortable: true
+            },
+
+            {
+               key: 'status',
+               label: this.$t('status'),
+               thClass: 'text-center',
+               tdClass: 'text-center',
+               sortable: true
+            },
+            {
+               key: 'actions',
+               label: this.$t('actions'),
+               thClass: 'text-center',
+               tdClass: 'text-center',
+               sortable: true
+            }
+         ],
+         filter: {
+            search: '',
+            sortBy: '',
+            orderType: 'asc',
+            pageSize: 20,
+            page: 1,
+            perPageOptions: [10, 20, 50, 100],
+            total: 0
+         },
+         isBusy: false
+      };
+   },
+   computed: {
+      firstNumber() {
+         return (this.filter.page - 1) * this.filter.pageSize + 1;
+      },
+      lastNumber() {
+         if (this.filter.total < this.filter.pageSize) {
+            return this.filter.total;
+         } else {
+            if (this.filter.page * this.filter.pageSize > this.filter.total) {
+               return this.filter.total;
+            } else {
+               return this.filter.page * this.filter.pageSize;
+            }
+         }
+      }
+   },
+   created() {
+      this.Refresh();
+   },
+   methods: {
+      SortChange(data) {
+         this.filter.sortBy = data.sortBy;
+         this.filter.orderType = data.sortDesc ? 'desc' : 'asc';
+         this.Refresh();
+      },
+
+      Refresh() {
+         this.isBusy = true;
+         ContractorService.GetListForEmployee(this.filter).then((res) => {
+            console.log(res, 'ss');
+            this.items = res.data.rows;
+            this.filter.total = res.data.total;
+            this.isBusy = false;
+         });
+      },
+      DbClick(item) {
+         if (this.selectable) {
+            this.$emit('row-selected', item);
+         }
+      }
+   }
+};
+</script>
+
+<style lang="scss" scoped>
+.per-page-selector {
+   width: 90px;
+}
+
+.invoice-filter-select {
+   min-width: 190px;
+
+   ::v-deep .vs__selected-options {
+      flex-wrap: nowrap;
+   }
+
+   ::v-deep .vs__selected {
+      width: 100px;
+   }
+}
+</style>
+
+<style lang="scss">
+@import '@core/scss/vue/libs/vue-select.scss';
+</style>

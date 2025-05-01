@@ -1,0 +1,303 @@
+.my-sidebar-body {
+    padding-bottom: 2rem;
+    background-color: white;
+    padding-top: 9.375rem;
+    padding-left: 12.1875rem;
+    border-radius: 8px;
+    padding-bottom: 16.25rem;
+    padding-right: 12.1875rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .text-sign {
+        font-size: 1.25rem;
+    }
+
+    .text-info-sign {
+        font-size: 14px;
+        color: #6a6d7d;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+}
+
+.my-sidebar-body-right {
+    border: 1px solid #d5d7e1;
+    background: #043776;
+    border-radius: 8px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-header .thead-custom th {
+    color: #495057;
+    font-weight: bold;
+}
+
+.custom-row td {
+    border-top: none;
+}
+
+.custom-row .border-cell {
+    border-top: 1px solid #dee2e6;
+}
+.callinfo {
+    background-color: #fff;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.table-section {
+    background-color: #fff;
+    border: 1px #d5d7e1 solid;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0.5rem 0;
+}
+.main-card-img svg {
+    display: block;
+    margin-right: 15px;
+    background-color: #ebeff2;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.infoCards {
+    border-radius: 12px;
+    border: 1px #d5d7e1 solid;
+    margin: 1rem;
+    background-color: #fff;
+}
+.mobileEnter {
+    font-weight: 600;
+    font-size: 32px;
+    color: #000107;
+}
+.subtitle {
+    font-size: 18px;
+    color: #6a6d7d;
+}
+.gototop {
+    position: fixed;
+    bottom: 6rem;
+    right: 1.5rem;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.appeal {
+    padding: 40px 0;
+}
+
+.faq-text {
+    background: rgba(24, 142, 246, 0.08);
+    border-radius: 4px;
+}
+.faq-text h4 {
+    font-size: 16px;
+    font-weight: normal !important;
+}
+.mobileTaklif {
+    width: 50%;
+    font-weight: 700;
+}
+.divider {
+    padding: 26px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8c8c8c; /* Matn rangini sozlash */
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #e0e0e0; /* Chiziq rangini sozlash */
+    margin: 0 12px; /* Matndan masofani sozlash */
+}
+
+.divider span {
+    font-size: 14px;
+    font-weight: 500; /* Matn uslubini sozlash */
+}
+.b-table th,
+.b-table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.b-table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Kichik ekranlar uchun (mobil telefonlar) */
+@media (max-width: 575.98px) {
+    .mobileEnter {
+        font-size: 18px;
+        padding-bottom: 1rem;
+    }
+    .my-sidebar-body {
+        padding: 2rem 3rem;
+        border-radius: 8px;
+
+        .text-sign {
+            font-size: 1.25rem;
+        }
+
+        .text-info-sign {
+            font-size: 14px;
+            color: #6a6d7d;
+            font-weight: 400;
+            padding-top: 10px;
+        }
+    }
+    .subtitle {
+        font-size: 1rem;
+        color: #bac1e7;
+    }
+    .mainPagetitle {
+        font-size: 1.2rem; /* Matnni kichraytirish */
+        margin-bottom: 1rem;
+    }
+    .table-responsive {
+        overflow-x: auto; /* Kichik ekranlarda jadvalni aylantirish imkoniyati */
+    }
+    .custom-row td {
+        font-size: 0.9rem; /* Jadval matnini kichraytirish */
+    }
+}
+
+/* O'rta ekranlar uchun (planshetlar) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .mainPagetitle {
+        font-size: 1.5rem;
+    }
+    .custom-row td {
+        font-size: 1rem;
+    }
+}
+
+/* Katta ekranlar uchun (kichik noutbuklar) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .mobileEnter {
+        font-size: 22px;
+        padding-bottom: 0.8rem;
+    }
+
+    .my-sidebar-body {
+        padding: 2rem 3rem;
+        border-radius: 8px;
+
+        .text-sign {
+            font-size: 1.25rem;
+        }
+
+        .text-info-sign {
+            font-size: 14px;
+            color: #6a6d7d;
+            font-weight: 400;
+            padding-top: 10px;
+        }
+        .mobileEnter {
+            font-size: 18px;
+            padding-bottom: 1rem;
+        }
+        .registeroneid-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .registeroneid-btn_img {
+                width: 80px;
+            }
+        }
+    }
+    .mainPagetitle {
+        font-size: 1.8rem;
+    }
+}
+
+/* Juda katta ekranlar uchun (katta noutbuklar) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .mobileEnter {
+        font-size: 22px;
+        padding-bottom: 0.8rem;
+    }
+
+    .my-sidebar-body {
+        padding: 3rem 5rem;
+        border-radius: 8px;
+
+        .text-sign {
+            font-size: 1.25rem;
+        }
+
+        .text-info-sign {
+            font-size: 14px;
+            color: #6a6d7d;
+            font-weight: 400;
+            padding-top: 10px;
+        }
+        .mobileEnter {
+            font-size: 25px;
+            padding-bottom: 1rem;
+        }
+        .registeroneid-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+/* Ulkan ekranlar uchun (katta monitorlar) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .mobileEnter {
+        font-size: 22px;
+        padding-bottom: 0.8rem;
+    }
+
+    .my-sidebar-body {
+        padding: 8rem 7rem;
+        border-radius: 8px;
+
+        .text-sign {
+            font-size: 1.25rem;
+        }
+
+        .text-info-sign {
+            font-size: 14px;
+            color: #6a6d7d;
+            font-weight: 400;
+            padding-top: 10px;
+        }
+        .mobileEnter {
+            font-size: 30px;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+/* Ultra ulkan ekranlar uchun (ultra keng monitorlar) */
+@media (min-width: 1400px) {
+    /* xxl uchun kod */
+}

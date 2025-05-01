@@ -1,0 +1,546 @@
+@media only screen and (max-width: 1600px) {
+    .my-sidebar-body {
+        padding-bottom: 90px;
+        .mobileEnter {
+            font-size: 32px;
+        }
+        .registeroneid-btn_img {
+            height: 25px;
+        }
+    }
+    .statistic-card {
+        padding: 20px;
+
+        .statistic-container {
+            width: 100%;
+        }
+    }
+
+    .instruction-container {
+        .instruction-left-menu {
+            padding-left: 0px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .oferta {
+        .oferta-container {
+            .row {
+                .col {
+                    position: static;
+
+                    .soglasen {
+                        display: flex;
+                        width: 100%;
+                        position: static;
+                        text-align: right;
+                        justify-content: space-between;
+                        margin-left: auto;
+                        margin-top: 20px;
+                    }
+
+                    .soglasen::before {
+                        content: '';
+                    }
+                }
+            }
+        }
+    }
+
+    .instruction-container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .demo {
+        bottom: 20px;
+    }
+
+    .instruction-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .child-back-icon {
+        .col {
+            position: static;
+            display: flex;
+
+            h1 {
+                font-size: 36px;
+            }
+
+            img {
+                position: static;
+                margin-top: 60px;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .my-register-page {
+        .my-container {
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .instruction-container {
+        .instruction-left-menu {
+            display: flex;
+
+            li {
+                margin-right: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 25px;
+            }
+
+            li.my-text-success {
+                background-color: rgba($color: $success, $alpha: 0.3);
+                color: white;
+            }
+        }
+    }
+
+    .my-top-search {
+        .my-top-search-container {
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .my-map {
+        .map-search {
+            width: 350px;
+            padding: 32px;
+        }
+
+        .map-content {
+            width: calc(100% - 350px);
+        }
+    }
+}
+
+@media only screen and (max-width: 1059px) {
+    .demo {
+        bottom: -10px;
+    }
+
+    .statistic-card {
+        .statistic-container {
+            .statistic-card-main {
+                div.d-flex {
+                    h2 {
+                        font-size: 36px;
+                    }
+                }
+            }
+        }
+    }
+
+    .mainMobileInput {
+        margin-top: 15px !important;
+    }
+
+    .offMobile {
+        display: none;
+    }
+
+    .mobileTaklif {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .call-center {
+        display: none !important;
+    }
+
+    .mainMobileInput {
+        margin-top: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #section10 {
+        display: none !important;
+    }
+
+    .oferta {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .oferta-container {
+            width: 100%;
+        }
+    }
+
+    .my-register-page {
+        .my-container {
+            .row {
+                .col {
+                    h1 {
+                        font-size: 36px;
+                    }
+
+                    margin-top: 5px !important;
+                    margin-bottom: 5px !important;
+                }
+            }
+        }
+    }
+
+    .offMobile {
+        display: none;
+    }
+
+    .mobileTextCenter {
+        text-align: center;
+        margin-top: 10px !important;
+
+        .d-flex {
+            justify-content: center;
+        }
+
+        .card-little-text {
+            text-align: center !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .my-register-page {
+        .my-container {
+            .row {
+                .col-sm-12 {
+                    h1 {
+                        font-size: 36px;
+                    }
+
+                    margin-top: 10px !important;
+                    margin-bottom: 10px !important;
+                }
+            }
+        }
+    }
+
+    .instruction-container {
+        .instruction-left-menu {
+            display: grid;
+
+            li {
+                margin-right: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 25px;
+            }
+
+            li.my-text-success {
+                background-color: rgba($color: $success, $alpha: 0.3);
+                color: white;
+            }
+        }
+
+        .instruction-video {
+            width: 90%;
+            margin-top: 2em;
+        }
+    }
+
+    .child-margin-top {
+        .col-sm-6.col-md-3 {
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+        }
+    }
+
+    .statistic-card {
+        .statistic-container {
+            .statistic-card-main {
+                div.d-flex.justify-content-between {
+                    width: 100%;
+                    display: block !important;
+
+                    h2 {
+                        font-size: 32px;
+                        width: 100%;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        justify-content: center;
+                        text-align: center;
+                    }
+
+                    div {
+                        margin-left: auto;
+                        margin-right: auto;
+                        display: block;
+                        width: 250px;
+                    }
+                }
+
+                div.d-flex.align-items-center {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+
+    .my-map {
+        display: grid !important;
+
+        .map-search {
+            width: 100% !important;
+            padding: 64px;
+        }
+
+        .map-content {
+            width: 100% !important;
+        }
+    }
+
+    .ssp-main {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .textbackviewstyle {
+        font-size: 20px;
+    }
+
+    .mobileTitle {
+        margin-top: 170px !important;
+    }
+
+    .mainMobileInput {
+        margin-top: 15px !important;
+    }
+
+    .offMobile {
+        display: none;
+    }
+
+    .mobileTextCenter {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mobileTitle {
+        margin-top: 170px !important;
+    }
+
+    .offMobile {
+        display: none;
+    }
+
+    .mobileEnter {
+        margin-top: 35px;
+    }
+
+    .mobileTaklif {
+        width: 100% !important;
+        font-weight: 700;
+    }
+
+    .mobileTextCenter {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .my-footer {
+        display: block;
+        border-top: 0.1em solid $navbar-bottom-color;
+    }
+
+    .my-navbar {
+        .right-pos {
+            width: 0;
+
+            .account {
+                display: none !important;
+            }
+        }
+
+        .left-pos {
+            .language {
+                text-align: right;
+                margin-left: auto;
+                display: block;
+
+                .my-dropdown {
+                    .dropdown-content {
+                        right: 0;
+
+                        ul {
+                            li {
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .orgname {
+                text-align: center;
+            }
+
+            .orgname-child {
+                font-size: 18px;
+                text-wrap: wrap;
+            }
+        }
+    }
+
+    .my-navbar .left-pos .hr {
+        width: 0;
+    }
+
+    .my-map {
+        .map-search {
+            padding: 32px;
+        }
+    }
+
+    .mobileTitle {
+        margin-top: 170px !important;
+    }
+
+    .mainMobileInput {
+        margin-top: 15px !important;
+    }
+
+    .mobileArbitaj {
+        min-height: 110px !important;
+    }
+
+    .offMobile {
+        display: none;
+    }
+
+    .mobileEnter {
+        margin-top: 35px;
+    }
+
+    .mobileTaklif {
+        width: 100% !important;
+        font-weight: 700;
+    }
+
+    .mobileTextCenter {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .sertificate-html {
+        width: 86% !important;
+        margin: 30px;
+        font-size: 18.6px;
+        text-align: center;
+
+        .main-imzo {
+            margin-left: 50px !important;
+        }
+    }
+
+    .create-text-success {
+        width: 270px !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .statistic-card {
+        .statistic-container {
+            padding: 30px;
+
+            .statistic-card-main {
+                div.d-flex.justify-content-between {
+                    h2 {
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+
+    .left-pos {
+        .orgname {
+            display: none !important;
+        }
+    }
+
+    .mainMobileInput {
+        margin-top: 15px !important;
+    }
+
+    .offMobile {
+        display: none;
+    }
+
+    .mobileEnter {
+        margin-top: 35px;
+    }
+
+    .mobileTaklif {
+        width: 100% !important;
+        font-weight: 700;
+    }
+
+    .mobileTextCenter {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .real-live-place.liveplace {
+        .col {
+            p {
+                display: block !important;
+
+                span {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    text-align: center;
+                }
+
+                div {
+                    margin-top: 10px;
+
+                    button {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .mainMobileInput {
+        margin-top: 15px !important;
+    }
+
+    .offMobile {
+        display: none;
+    }
+
+    .mobileTextCenter {
+        text-align: center;
+        margin-top: 10px;
+    }
+}

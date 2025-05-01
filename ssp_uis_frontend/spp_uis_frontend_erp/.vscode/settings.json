@@ -1,0 +1,12 @@
+{
+   "i18n-ally.localesPaths": [
+      "src/libs/i18n",
+      "src/@core/libs/i18n",
+      "src/libs/i18n/locales",
+      "src/libs/vee-validate/locales"
+   ],
+   "commentTranslate.targetLanguage": "ru",
+   "commentTranslate.hover.enabled": true,
+   "typescript.tsdk": "node_modules/typescript/lib",
+   "i18n-ally.sourceLanguage": "uz"
+}
