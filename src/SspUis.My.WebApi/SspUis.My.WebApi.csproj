@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>db703342-2f4a-4a13-86f6-ec5bab0a9bfb</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<!-- <GenerateDocumentationFile>True</GenerateDocumentationFile> -->
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Hangfire.AspNetCore" Version="1.7.28" />
+		<PackageReference Include="Hangfire.MemoryStorage" Version="1.7.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" NoWarn="NU1605" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="6.0.0" NoWarn="NU1605" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.0" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+		<PackageReference Include="NetCore.AutoRegisterDi" Version="2.1.0" />
+		<PackageReference Include="SSH.NET" Version="2023.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.2.3" />
+		<PackageReference Include="WEBASE.EF" Version="2024.5.30.1920" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="appdata\staticfiles\fonts\ANTQUAB.TTF">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="appdata\staticfiles\wordtemplates\ru\MediationPlanXorazm.docx">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="SspUis.My.WebApi.xml">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="appdata\staticfiles\exceltemplates\ru\" />
+	  <Folder Include="appdata\staticfiles\exceltemplates\uz-cyrl\" />
+	  <Folder Include="appdata\staticfiles\exceltemplates\uz-latn\" />
+	  <Folder Include="appdata\staticfiles\htmltemplates\en\" />
+	  <Folder Include="appdata\staticfiles\htmltemplates\ru\" />
+	  <Folder Include="appdata\staticfiles\htmltemplates\uz-cyrl\" />
+	  <Folder Include="appdata\staticfiles\htmltemplates\uz-latn\" />
+	  <Folder Include="appdata\staticfiles\wordtemplates\ru\" />
+	  <Folder Include="appdata\staticfiles\wordtemplates\uz-cyrl\" />
+	  <Folder Include="appdata\staticfiles\wordtemplates\uz-latn\" />
+	  <Folder Include="appdata\tempfiles\" />
+	  <Folder Include="appdata\tempfiles\mono-application-files\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\libs\SspUis.BizLogicLayer\SspUis.BizLogicLayer.csproj" />
+	  <ProjectReference Include="..\libs\SspUis.Job\SspUis.Job.csproj" />
+	</ItemGroup>
+	
+</Project>

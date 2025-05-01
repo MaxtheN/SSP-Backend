@@ -1,0 +1,1437 @@
+[
+  {
+    "id": 1,
+    "wbcode": "1726294",
+    "displayname": "Чиланзарский",
+    "gspid": 1007,
+    "gnkid": "2606"
+  },
+  {
+    "id": 2,
+    "wbcode": "1726283",
+    "displayname": "Сергелийский",
+    "gspid": 1008,
+    "gnkid": "2607"
+  },
+  {
+    "id": 3,
+    "wbcode": "1726292",
+    "displayname": "Янгиҳаёт",
+    "gspid": 739001160,
+    "gnkid": null
+  },
+  {
+    "id": 4,
+    "wbcode": "1726280",
+    "displayname": "Олмазорский",
+    "gspid": 1012,
+    "gnkid": "2609"
+  },
+  {
+    "id": 5,
+    "wbcode": "1726273",
+    "displayname": "Мирабадский",
+    "gspid": 1009,
+    "gnkid": "2601"
+  },
+  {
+    "id": 6,
+    "wbcode": "1726269",
+    "displayname": "Мирзо Улугбекский",
+    "gspid": 1003,
+    "gnkid": "2602"
+  },
+  {
+    "id": 7,
+    "wbcode": "1726264",
+    "displayname": "Бектемирский",
+    "gspid": 1011,
+    "gnkid": "2611"
+  },
+  {
+    "id": 8,
+    "wbcode": "1726287",
+    "displayname": "Яккасарайский",
+    "gspid": 1005,
+    "gnkid": "2604"
+  },
+  {
+    "id": 9,
+    "wbcode": "1726262",
+    "displayname": "Учтепинский",
+    "gspid": 1001,
+    "gnkid": "2610"
+  },
+  {
+    "id": 10,
+    "wbcode": "1726290",
+    "displayname": "Яшнабадский",
+    "gspid": 739001080,
+    "gnkid": "2608"
+  },
+  {
+    "id": 11,
+    "wbcode": "1726277",
+    "displayname": "Шайхантахурский",
+    "gspid": 1006,
+    "gnkid": "2605"
+  },
+  {
+    "id": 12,
+    "wbcode": "1726266",
+    "displayname": "Юнусабадский",
+    "gspid": 1010,
+    "gnkid": "2603"
+  },
+  {
+    "id": 13,
+    "wbcode": "1727228",
+    "displayname": "Букинский",
+    "gspid": 1113,
+    "gnkid": "2702"
+  },
+  {
+    "id": 14,
+    "wbcode": "1727206",
+    "displayname": "Аккурганский",
+    "gspid": 1106,
+    "gnkid": "2707"
+  },
+  {
+    "id": 15,
+    "wbcode": "1727224",
+    "displayname": "Бостанлыкский",
+    "gspid": 1112,
+    "gnkid": "2703"
+  },
+  {
+    "id": 16,
+    "wbcode": "1727212",
+    "displayname": "Ахангаранский",
+    "gspid": 1110,
+    "gnkid": "2708"
+  },
+  {
+    "id": 17,
+    "wbcode": "1727237",
+    "displayname": "Зангиатинский",
+    "gspid": 1102,
+    "gnkid": "2704"
+  },
+  {
+    "id": 18,
+    "wbcode": "1727220",
+    "displayname": "Бекабадский",
+    "gspid": 1111,
+    "gnkid": "2701"
+  },
+  {
+    "id": 19,
+    "wbcode": "1727233",
+    "displayname": "Куйичирчикский",
+    "gspid": 1107,
+    "gnkid": "2714"
+  },
+  {
+    "id": 20,
+    "wbcode": "1727401",
+    "displayname": "г. Нурафшан",
+    "gspid": 739001120,
+    "gnkid": "2723"
+  },
+  {
+    "id": 21,
+    "wbcode": "1727419",
+    "displayname": "г. Чирчик",
+    "gspid": 1120,
+    "gnkid": "2720"
+  },
+  {
+    "id": 22,
+    "wbcode": "1727253",
+    "displayname": "Уртачирчикский",
+    "gspid": 1105,
+    "gnkid": "2712"
+  },
+  {
+    "id": 23,
+    "wbcode": "1727424",
+    "displayname": "г. Янгиюль",
+    "gspid": 1122,
+    "gnkid": "2722"
+  },
+  {
+    "id": 24,
+    "wbcode": "1727413",
+    "displayname": "г. Бекабад",
+    "gspid": 1117,
+    "gnkid": "2717"
+  },
+  {
+    "id": 25,
+    "wbcode": "1727415",
+    "displayname": "г. Ахангаран",
+    "gspid": 1119,
+    "gnkid": "2719"
+  },
+  {
+    "id": 26,
+    "wbcode": "1727407",
+    "displayname": "г. Ангрен",
+    "gspid": 1116,
+    "gnkid": "2716"
+  },
+  {
+    "id": 27,
+    "wbcode": "1727404",
+    "displayname": "г. Алмалык",
+    "gspid": 1118,
+    "gnkid": "2718"
+  },
+  {
+    "id": 28,
+    "wbcode": "1727259",
+    "displayname": "Янгиюльский",
+    "gspid": 1101,
+    "gnkid": "2715"
+  },
+  {
+    "id": 29,
+    "wbcode": "1727239",
+    "displayname": "Юкарычирчикский",
+    "gspid": 1114,
+    "gnkid": "2705"
+  },
+  {
+    "id": 30,
+    "wbcode": "1727250",
+    "displayname": "Пскентский",
+    "gspid": 1103,
+    "gnkid": "2710"
+  },
+  {
+    "id": 31,
+    "wbcode": "1727265",
+    "displayname": "Ташкентский",
+    "gspid": 1109,
+    "gnkid": "2711"
+  },
+  {
+    "id": 32,
+    "wbcode": "1727256",
+    "displayname": "Чиназский",
+    "gspid": 1115,
+    "gnkid": "2713"
+  },
+  {
+    "id": 33,
+    "wbcode": "1727249",
+    "displayname": "Паркентский",
+    "gspid": 1104,
+    "gnkid": "2709"
+  },
+  {
+    "id": 34,
+    "wbcode": "1727248",
+    "displayname": "Кибрайский",
+    "gspid": 1108,
+    "gnkid": "2706"
+  },
+  {
+    "id": 35,
+    "wbcode": "1703224",
+    "displayname": "г. Асака",
+    "gspid": 1716,
+    "gnkid": null
+  },
+  {
+    "id": 36,
+    "wbcode": "1703202",
+    "displayname": "Алтынкульский",
+    "gspid": 1702,
+    "gnkid": "306"
+  },
+  {
+    "id": 37,
+    "wbcode": "1703220",
+    "displayname": "Кургантепинский",
+    "gspid": 1708,
+    "gnkid": "314"
+  },
+  {
+    "id": 38,
+    "wbcode": "1703227",
+    "displayname": "Мархаматский",
+    "gspid": 1711,
+    "gnkid": "316"
+  },
+  {
+    "id": 39,
+    "wbcode": "1703232",
+    "displayname": "Пахтаабадский",
+    "gspid": 1714,
+    "gnkid": "318"
+  },
+  {
+    "id": 40,
+    "wbcode": "1703217",
+    "displayname": "Улугнорский",
+    "gspid": 1706,
+    "gnkid": "313"
+  },
+  {
+    "id": 41,
+    "wbcode": "1703236",
+    "displayname": "Ходжаабадский",
+    "gspid": 1710,
+    "gnkid": "319"
+  },
+  {
+    "id": 42,
+    "wbcode": "1703408",
+    "displayname": "г. Ханабад",
+    "gspid": 1717,
+    "gnkid": "303"
+  },
+  {
+    "id": 43,
+    "wbcode": "1703230",
+    "displayname": "Шахриханский",
+    "gspid": 1707,
+    "gnkid": "317"
+  },
+  {
+    "id": 45,
+    "wbcode": "1703203",
+    "displayname": "Андижанский",
+    "gspid": 1701,
+    "gnkid": "307"
+  },
+  {
+    "id": 46,
+    "wbcode": "1703214",
+    "displayname": "Избасканкий",
+    "gspid": 1712,
+    "gnkid": "312"
+  },
+  {
+    "id": 47,
+    "wbcode": "1703211",
+    "displayname": "Джалалкудукский",
+    "gspid": 1709,
+    "gnkid": "311"
+  },
+  {
+    "id": 48,
+    "wbcode": "1703210",
+    "displayname": "Булакбашинский",
+    "gspid": 1713,
+    "gnkid": "310"
+  },
+  {
+    "id": 49,
+    "wbcode": "1703401",
+    "displayname": "г. Андижан",
+    "gspid": 1715,
+    "gnkid": "301"
+  },
+  {
+    "id": 50,
+    "wbcode": "1703206",
+    "displayname": "Балыкчинский",
+    "gspid": 1704,
+    "gnkid": "308"
+  },
+  {
+    "id": 51,
+    "wbcode": "1706242",
+    "displayname": "Ромитанский",
+    "gspid": 2001,
+    "gnkid": "612"
+  },
+  {
+    "id": 52,
+    "wbcode": "1706401",
+    "displayname": "г. Бухара",
+    "gspid": 2013,
+    "gnkid": "601"
+  },
+  {
+    "id": 53,
+    "wbcode": "1706403",
+    "displayname": "г. Каган",
+    "gspid": 2015,
+    "gnkid": "603"
+  },
+  {
+    "id": 54,
+    "wbcode": "1706204",
+    "displayname": "Алатский",
+    "gspid": 2004,
+    "gnkid": "604"
+  },
+  {
+    "id": 55,
+    "wbcode": "1706207",
+    "displayname": "Бухарский",
+    "gspid": 2010,
+    "gnkid": "605"
+  },
+  {
+    "id": 56,
+    "wbcode": "1706212",
+    "displayname": "Вабкентский",
+    "gspid": 2002,
+    "gnkid": "606"
+  },
+  {
+    "id": 57,
+    "wbcode": "1706215",
+    "displayname": "Гиждуванский",
+    "gspid": 2012,
+    "gnkid": "607"
+  },
+  {
+    "id": 58,
+    "wbcode": "1706246",
+    "displayname": "Жандарский",
+    "gspid": 2005,
+    "gnkid": "608"
+  },
+  {
+    "id": 59,
+    "wbcode": "1706219",
+    "displayname": "Каганский",
+    "gspid": 2011,
+    "gnkid": "609"
+  },
+  {
+    "id": 60,
+    "wbcode": "1706230",
+    "displayname": "Каракульский",
+    "gspid": 2006,
+    "gnkid": "610"
+  },
+  {
+    "id": 61,
+    "wbcode": "1706240",
+    "displayname": "Пешкунский",
+    "gspid": 2003,
+    "gnkid": "611"
+  },
+  {
+    "id": 62,
+    "wbcode": "1706232",
+    "displayname": "Караулбазарский",
+    "gspid": 2008,
+    "gnkid": "614"
+  },
+  {
+    "id": 63,
+    "wbcode": "1706258",
+    "displayname": "Шафирканский",
+    "gspid": 2007,
+    "gnkid": "613"
+  },
+  {
+    "id": 64,
+    "wbcode": "1708401",
+    "displayname": "г. Джизак",
+    "gspid": 1314,
+    "gnkid": "812"
+  },
+  {
+    "id": 65,
+    "wbcode": "1708235",
+    "displayname": "Фаришский",
+    "gspid": 1304,
+    "gnkid": "811"
+  },
+  {
+    "id": 66,
+    "wbcode": "1708223",
+    "displayname": "Мирзачульский",
+    "gspid": 1312,
+    "gnkid": "809"
+  },
+  {
+    "id": 67,
+    "wbcode": "1708225",
+    "displayname": "Зафарабадский",
+    "gspid": 1309,
+    "gnkid": "808"
+  },
+  {
+    "id": 68,
+    "wbcode": "1708220",
+    "displayname": "Зарбдарский",
+    "gspid": 1301,
+    "gnkid": "806"
+  },
+  {
+    "id": 69,
+    "wbcode": "1708212",
+    "displayname": "Шараф Рашидовский",
+    "gspid": 1305,
+    "gnkid": "804"
+  },
+  {
+    "id": 70,
+    "wbcode": "1708218",
+    "displayname": "Зааминский",
+    "gspid": 1311,
+    "gnkid": "807"
+  },
+  {
+    "id": 71,
+    "wbcode": "1708228",
+    "displayname": "Пахтакорский",
+    "gspid": 1308,
+    "gnkid": "810"
+  },
+  {
+    "id": 72,
+    "wbcode": "1708215",
+    "displayname": "Дусткликский",
+    "gspid": 1302,
+    "gnkid": "805"
+  },
+  {
+    "id": 73,
+    "wbcode": "1708209",
+    "displayname": "Галлааральский",
+    "gspid": 1306,
+    "gnkid": "803"
+  },
+  {
+    "id": 74,
+    "wbcode": "1708204",
+    "displayname": "Бахмалький",
+    "gspid": 1307,
+    "gnkid": "802"
+  },
+  {
+    "id": 75,
+    "wbcode": "1708237",
+    "displayname": "Янгиабадский",
+    "gspid": 1313,
+    "gnkid": "813"
+  },
+  {
+    "id": 76,
+    "wbcode": "1708201",
+    "displayname": "Арнасайский",
+    "gspid": 1310,
+    "gnkid": "801"
+  },
+  {
+    "id": 77,
+    "wbcode": "1735228",
+    "displayname": "Тахиаташский",
+    "gspid": null,
+    "gnkid": null
+  },
+  {
+    "id": 78,
+    "wbcode": "1735204",
+    "displayname": "Амударьинский",
+    "gspid": 2308,
+    "gnkid": "3508"
+  },
+  {
+    "id": 79,
+    "wbcode": "1735207",
+    "displayname": "Берунийский",
+    "gspid": 2309,
+    "gnkid": "3509"
+  },
+  {
+    "id": 80,
+    "wbcode": "1735218",
+    "displayname": "Канлыкульский",
+    "gspid": 2310,
+    "gnkid": "3513"
+  },
+  {
+    "id": 81,
+    "wbcode": "1735211",
+    "displayname": "Караузякский",
+    "gspid": 2316,
+    "gnkid": "3522"
+  },
+  {
+    "id": 82,
+    "wbcode": "1735212",
+    "displayname": "Кегейлийский",
+    "gspid": 2307,
+    "gnkid": "3511"
+  },
+  {
+    "id": 83,
+    "wbcode": "1735215",
+    "displayname": "Кунградский",
+    "gspid": 2302,
+    "gnkid": "3512"
+  },
+  {
+    "id": 84,
+    "wbcode": "1735222",
+    "displayname": "Муйнакский",
+    "gspid": 2303,
+    "gnkid": "3514"
+  },
+  {
+    "id": 85,
+    "wbcode": "1735225",
+    "displayname": "Нукусский",
+    "gspid": 2301,
+    "gnkid": "3515"
+  },
+  {
+    "id": 86,
+    "wbcode": "1735230",
+    "displayname": "Тахтакупырский",
+    "gspid": 2313,
+    "gnkid": "3516"
+  },
+  {
+    "id": 87,
+    "wbcode": "1735233",
+    "displayname": "Турткульский",
+    "gspid": 2305,
+    "gnkid": "3517"
+  },
+  {
+    "id": 88,
+    "wbcode": "1735236",
+    "displayname": "Хаджейлийский",
+    "gspid": 2314,
+    "gnkid": "3518"
+  },
+  {
+    "id": 89,
+    "wbcode": "1735240",
+    "displayname": "Чимбайский",
+    "gspid": 2311,
+    "gnkid": "3519"
+  },
+  {
+    "id": 90,
+    "wbcode": "1735243",
+    "displayname": "Шуманайский",
+    "gspid": 2312,
+    "gnkid": "3520"
+  },
+  {
+    "id": 91,
+    "wbcode": "1735250",
+    "displayname": "Элликкалинский",
+    "gspid": 2306,
+    "gnkid": "3521"
+  },
+  {
+    "id": 92,
+    "wbcode": "1735401",
+    "displayname": "г. Нукус",
+    "gspid": 2317,
+    "gnkid": "3501"
+  },
+  {
+    "id": 94,
+    "wbcode": "1735209",
+    "displayname": "Бозатауский",
+    "gspid": 2315,
+    "gnkid": null
+  },
+  {
+    "id": 95,
+    "wbcode": "1710235",
+    "displayname": "Нишанский",
+    "gspid": 1810,
+    "gnkid": "1011"
+  },
+  {
+    "id": 96,
+    "wbcode": "1710207",
+    "displayname": "Гузарский",
+    "gspid": 1808,
+    "gnkid": "1004"
+  },
+  {
+    "id": 97,
+    "wbcode": "1710212",
+    "displayname": "Дехканабадский",
+    "gspid": 1804,
+    "gnkid": "1005"
+  },
+  {
+    "id": 98,
+    "wbcode": "1710220",
+    "displayname": "Камашинский",
+    "gspid": 1805,
+    "gnkid": "1006"
+  },
+  {
+    "id": 99,
+    "wbcode": "1710224",
+    "displayname": "Каршинский",
+    "gspid": 1809,
+    "gnkid": "1007"
+  },
+  {
+    "id": 100,
+    "wbcode": "1710229",
+    "displayname": "Касанский",
+    "gspid": 1802,
+    "gnkid": "1008"
+  },
+  {
+    "id": 101,
+    "wbcode": "1710237",
+    "displayname": "Касбинский",
+    "gspid": 1812,
+    "gnkid": "1012"
+  },
+  {
+    "id": 102,
+    "wbcode": "1710232",
+    "displayname": "Китабский",
+    "gspid": 1811,
+    "gnkid": "1009"
+  },
+  {
+    "id": 103,
+    "wbcode": "1710233",
+    "displayname": "Миришкорский",
+    "gspid": 1814,
+    "gnkid": "1017"
+  },
+  {
+    "id": 104,
+    "wbcode": "1710234",
+    "displayname": "Мубарекский",
+    "gspid": 1813,
+    "gnkid": "1010"
+  },
+  {
+    "id": 105,
+    "wbcode": "1710242",
+    "displayname": "Чиракчинский",
+    "gspid": 1801,
+    "gnkid": "1014"
+  },
+  {
+    "id": 106,
+    "wbcode": "1710245",
+    "displayname": "Шахризабский",
+    "gspid": 1803,
+    "gnkid": "1015"
+  },
+  {
+    "id": 107,
+    "wbcode": "1710250",
+    "displayname": "Яккабагский",
+    "gspid": 1806,
+    "gnkid": "1016"
+  },
+  {
+    "id": 108,
+    "wbcode": "1710401",
+    "displayname": "г. Карши",
+    "gspid": 1815,
+    "gnkid": "1001"
+  },
+  {
+    "id": 109,
+    "wbcode": "1710405",
+    "displayname": "г. Шахрисабз",
+    "gspid": 1816,
+    "gnkid": null
+  },
+  {
+    "id": 110,
+    "wbcode": "1712244",
+    "displayname": "Тамдынский",
+    "gspid": 2104,
+    "gnkid": "1207"
+  },
+  {
+    "id": 111,
+    "wbcode": "1712248",
+    "displayname": "Учкудукский",
+    "gspid": 2101,
+    "gnkid": "1203"
+  },
+  {
+    "id": 112,
+    "wbcode": "1712251",
+    "displayname": "Хатырчинский",
+    "gspid": 2108,
+    "gnkid": "1209"
+  },
+  {
+    "id": 113,
+    "wbcode": "1712408",
+    "displayname": "г. Зарафшан",
+    "gspid": 2112,
+    "gnkid": "1202"
+  },
+  {
+    "id": 114,
+    "wbcode": "1712401",
+    "displayname": "г. Навои",
+    "gspid": 2111,
+    "gnkid": "1201"
+  },
+  {
+    "id": 115,
+    "wbcode": "1712216",
+    "displayname": "Кызылтепинский",
+    "gspid": 2109,
+    "gnkid": "1205"
+  },
+  {
+    "id": 116,
+    "wbcode": "1712211",
+    "displayname": "Канимехский",
+    "gspid": 2102,
+    "gnkid": "1204"
+  },
+  {
+    "id": 117,
+    "wbcode": "1712230",
+    "displayname": "Навбахорский",
+    "gspid": 2105,
+    "gnkid": "1208"
+  },
+  {
+    "id": 118,
+    "wbcode": "1712234",
+    "displayname": "Карманинский",
+    "gspid": 2110,
+    "gnkid": "1211"
+  },
+  {
+    "id": 119,
+    "wbcode": "1712238",
+    "displayname": "Нуратинский",
+    "gspid": 2107,
+    "gnkid": "1210"
+  },
+  {
+    "id": 120,
+    "wbcode": "1714229",
+    "displayname": "Уйчинский",
+    "gspid": 1605,
+    "gnkid": "1413"
+  },
+  {
+    "id": 121,
+    "wbcode": "1714234",
+    "displayname": "Учкурганский",
+    "gspid": 1606,
+    "gnkid": "1414"
+  },
+  {
+    "id": 122,
+    "wbcode": "1714236",
+    "displayname": "Чартакский",
+    "gspid": 1607,
+    "gnkid": "1415"
+  },
+  {
+    "id": 123,
+    "wbcode": "1714237",
+    "displayname": "Чустский",
+    "gspid": 1610,
+    "gnkid": "1416"
+  },
+  {
+    "id": 124,
+    "wbcode": "1714242",
+    "displayname": "Янгикурганский",
+    "gspid": 1608,
+    "gnkid": "1417"
+  },
+  {
+    "id": 125,
+    "wbcode": "1714401",
+    "displayname": "г. Наманган",
+    "gspid": 1613,
+    "gnkid": "1401"
+  },
+  {
+    "id": 126,
+    "wbcode": "1714207",
+    "displayname": "Касансайский",
+    "gspid": 1609,
+    "gnkid": "1408"
+  },
+  {
+    "id": 127,
+    "wbcode": "1714204",
+    "displayname": "Мингбулакский",
+    "gspid": 1602,
+    "gnkid": "1407"
+  },
+  {
+    "id": 128,
+    "wbcode": "1714212",
+    "displayname": "Наманганский",
+    "gspid": 1603,
+    "gnkid": "1409"
+  },
+  {
+    "id": 129,
+    "wbcode": "1714216",
+    "displayname": "Нарынский",
+    "gspid": 1604,
+    "gnkid": "1410"
+  },
+  {
+    "id": 130,
+    "wbcode": "1714219",
+    "displayname": "Папский",
+    "gspid": 1611,
+    "gnkid": "1411"
+  },
+  {
+    "id": 131,
+    "wbcode": "1714224",
+    "displayname": "Туракурганский",
+    "gspid": 1612,
+    "gnkid": "1412"
+  },
+  {
+    "id": 132,
+    "wbcode": "1718212",
+    "displayname": "Иштыханский",
+    "gspid": 1408,
+    "gnkid": "1812"
+  },
+  {
+    "id": 133,
+    "wbcode": "1718215",
+    "displayname": "Каттакурганский",
+    "gspid": 1406,
+    "gnkid": "1813"
+  },
+  {
+    "id": 134,
+    "wbcode": "1718216",
+    "displayname": "Кошрабадский",
+    "gspid": 1414,
+    "gnkid": "1814"
+  },
+  {
+    "id": 135,
+    "wbcode": "1718218",
+    "displayname": "Нарпайский",
+    "gspid": 1401,
+    "gnkid": "1815"
+  },
+  {
+    "id": 136,
+    "wbcode": "1718235",
+    "displayname": "Нурабадский",
+    "gspid": 1402,
+    "gnkid": "1821"
+  },
+  {
+    "id": 137,
+    "wbcode": "1718236",
+    "displayname": "Ургутский",
+    "gspid": 1404,
+    "gnkid": "1822"
+  },
+  {
+    "id": 138,
+    "wbcode": "1718406",
+    "displayname": "г. Каттакурган",
+    "gspid": 1421,
+    "gnkid": "1806"
+  },
+  {
+    "id": 139,
+    "wbcode": "1718401",
+    "displayname": "г. Самарканд",
+    "gspid": 1417,
+    "gnkid": "1801"
+  },
+  {
+    "id": 140,
+    "wbcode": "1718224",
+    "displayname": "Пайарыкский",
+    "gspid": 1415,
+    "gnkid": "1817"
+  },
+  {
+    "id": 141,
+    "wbcode": "1718227",
+    "displayname": "Пастдаргомский",
+    "gspid": 1409,
+    "gnkid": "1818"
+  },
+  {
+    "id": 142,
+    "wbcode": "1718230",
+    "displayname": "Пахтачийский",
+    "gspid": 1405,
+    "gnkid": "1819"
+  },
+  {
+    "id": 143,
+    "wbcode": "1718233",
+    "displayname": "Самаркандский",
+    "gspid": 1413,
+    "gnkid": "1820"
+  },
+  {
+    "id": 144,
+    "wbcode": "1718238",
+    "displayname": "Тайлакский",
+    "gspid": 1410,
+    "gnkid": "1804"
+  },
+  {
+    "id": 145,
+    "wbcode": "1718203",
+    "displayname": "Акдарьинский",
+    "gspid": 1407,
+    "gnkid": "1808"
+  },
+  {
+    "id": 146,
+    "wbcode": "1718206",
+    "displayname": "Булунгурский",
+    "gspid": 1411,
+    "gnkid": "1809"
+  },
+  {
+    "id": 147,
+    "wbcode": "1718209",
+    "displayname": "Джамбайский",
+    "gspid": 1403,
+    "gnkid": "1811"
+  },
+  {
+    "id": 148,
+    "wbcode": "1722201",
+    "displayname": "Алтынсайский",
+    "gspid": 1907,
+    "gnkid": "2204"
+  },
+  {
+    "id": 149,
+    "wbcode": "1722202",
+    "displayname": "Ангорский",
+    "gspid": 1911,
+    "gnkid": "2203"
+  },
+  {
+    "id": 150,
+    "wbcode": "1722204",
+    "displayname": "Байсунский",
+    "gspid": 1902,
+    "gnkid": "2205"
+  },
+  {
+    "id": 151,
+    "wbcode": "1722203",
+    "displayname": "Бандиханский",
+    "gspid": 1915,
+    "gnkid": null
+  },
+  {
+    "id": 152,
+    "wbcode": "1722210",
+    "displayname": "Денауский",
+    "gspid": 1914,
+    "gnkid": "2207"
+  },
+  {
+    "id": 153,
+    "wbcode": "1722212",
+    "displayname": "Джаркурганский",
+    "gspid": 1909,
+    "gnkid": "2208"
+  },
+  {
+    "id": 154,
+    "wbcode": "1722214",
+    "displayname": "Кумкурганский",
+    "gspid": 1908,
+    "gnkid": "2209"
+  },
+  {
+    "id": 155,
+    "wbcode": "1722215",
+    "displayname": "Кызырыкский",
+    "gspid": 1910,
+    "gnkid": "2210"
+  },
+  {
+    "id": 156,
+    "wbcode": "1722207",
+    "displayname": "Музрабадский",
+    "gspid": 1903,
+    "gnkid": "2206"
+  },
+  {
+    "id": 157,
+    "wbcode": "1722217",
+    "displayname": "Сариасийский",
+    "gspid": 1904,
+    "gnkid": "2111"
+  },
+  {
+    "id": 158,
+    "wbcode": "1722220",
+    "displayname": "Термезский",
+    "gspid": 1901,
+    "gnkid": "2212"
+  },
+  {
+    "id": 159,
+    "wbcode": "1722221",
+    "displayname": "Узунский",
+    "gspid": 1913,
+    "gnkid": "2215"
+  },
+  {
+    "id": 160,
+    "wbcode": "1722223",
+    "displayname": "Шерабадский",
+    "gspid": 1912,
+    "gnkid": "2213"
+  },
+  {
+    "id": 161,
+    "wbcode": "1722226",
+    "displayname": "Шурчинский",
+    "gspid": 1906,
+    "gnkid": "2214"
+  },
+  {
+    "id": 162,
+    "wbcode": "1722401",
+    "displayname": "г. Термез",
+    "gspid": 1916,
+    "gnkid": "2201"
+  },
+  {
+    "id": 163,
+    "wbcode": "1724401",
+    "displayname": "г. Гулистан",
+    "gspid": 1210,
+    "gnkid": "2410"
+  },
+  {
+    "id": 164,
+    "wbcode": "1724410",
+    "displayname": "г. Ширин",
+    "gspid": 1212,
+    "gnkid": "2412"
+  },
+  {
+    "id": 165,
+    "wbcode": "1724413",
+    "displayname": "г. Янгиер",
+    "gspid": 1213,
+    "gnkid": "2413"
+  },
+  {
+    "id": 166,
+    "wbcode": "1724226",
+    "displayname": "Сардоба",
+    "gspid": 1215,
+    "gnkid": "2409"
+  },
+  {
+    "id": 167,
+    "wbcode": "1724216",
+    "displayname": "Сайхунабадский",
+    "gspid": 1201,
+    "gnkid": "2406"
+  },
+  {
+    "id": 168,
+    "wbcode": "1724231",
+    "displayname": "Сырдарьинский",
+    "gspid": 1209,
+    "gnkid": "2407"
+  },
+  {
+    "id": 169,
+    "wbcode": "1724235",
+    "displayname": "Хавастский",
+    "gspid": 1205,
+    "gnkid": "2408"
+  },
+  {
+    "id": 170,
+    "wbcode": "1724228",
+    "displayname": "Мирзаабадский",
+    "gspid": 1206,
+    "gnkid": "2405"
+  },
+  {
+    "id": 171,
+    "wbcode": "1724206",
+    "displayname": "Акалтинский",
+    "gspid": 1207,
+    "gnkid": "2401"
+  },
+  {
+    "id": 172,
+    "wbcode": "1724212",
+    "displayname": "Баяутский",
+    "gspid": 1203,
+    "gnkid": "2402"
+  },
+  {
+    "id": 173,
+    "wbcode": "1724220",
+    "displayname": "Гулистанский",
+    "gspid": 1202,
+    "gnkid": "2403"
+  },
+  {
+    "id": 174,
+    "wbcode": "1730230",
+    "displayname": "Узбекистанский",
+    "gspid": 1514,
+    "gnkid": "3017"
+  },
+  {
+    "id": 175,
+    "wbcode": "1730221",
+    "displayname": "Учкуприкский",
+    "gspid": 1510,
+    "gnkid": "3018"
+  },
+  {
+    "id": 176,
+    "wbcode": "1730233",
+    "displayname": "Ферганский",
+    "gspid": 1502,
+    "gnkid": "3019"
+  },
+  {
+    "id": 177,
+    "wbcode": "1730238",
+    "displayname": "Фуркатский",
+    "gspid": 1513,
+    "gnkid": "3020"
+  },
+  {
+    "id": 178,
+    "wbcode": "1730242",
+    "displayname": "Язъяванский",
+    "gspid": 1506,
+    "gnkid": null
+  },
+  {
+    "id": 179,
+    "wbcode": "1730405",
+    "displayname": "г. Коканд",
+    "gspid": 1519,
+    "gnkid": null
+  },
+  {
+    "id": 180,
+    "wbcode": "1730408",
+    "displayname": "г. Кувасай",
+    "gspid": 1517,
+    "gnkid": null
+  },
+  {
+    "id": 181,
+    "wbcode": "1730412",
+    "displayname": "г. Маргилан",
+    "gspid": 1520,
+    "gnkid": "3004"
+  },
+  {
+    "id": 182,
+    "wbcode": "1730401",
+    "displayname": "г. Фергана",
+    "gspid": 1521,
+    "gnkid": "3005"
+  },
+  {
+    "id": 183,
+    "wbcode": "1730203",
+    "displayname": "Алтыарыкский",
+    "gspid": 1507,
+    "gnkid": "3012"
+  },
+  {
+    "id": 184,
+    "wbcode": "1730206",
+    "displayname": "Куштепа",
+    "gspid": 2434,
+    "gnkid": "3013"
+  },
+  {
+    "id": 185,
+    "wbcode": "1730209",
+    "displayname": "Багдадский",
+    "gspid": 1508,
+    "gnkid": "3007"
+  },
+  {
+    "id": 186,
+    "wbcode": "1730215",
+    "displayname": "Бешарыкский",
+    "gspid": 1515,
+    "gnkid": "3006"
+  },
+  {
+    "id": 187,
+    "wbcode": "1730212",
+    "displayname": "Бувайдийский",
+    "gspid": 1509,
+    "gnkid": "3008"
+  },
+  {
+    "id": 188,
+    "wbcode": "1730236",
+    "displayname": "Дангаринский",
+    "gspid": 1512,
+    "gnkid": "3009"
+  },
+  {
+    "id": 189,
+    "wbcode": "1730218",
+    "displayname": "Кувинский",
+    "gspid": 1503,
+    "gnkid": "3011"
+  },
+  {
+    "id": 190,
+    "wbcode": "1730224",
+    "displayname": "Риштанский",
+    "gspid": 1511,
+    "gnkid": "3014"
+  },
+  {
+    "id": 191,
+    "wbcode": "1730226",
+    "displayname": "Сохский",
+    "gspid": 1516,
+    "gnkid": "3015"
+  },
+  {
+    "id": 192,
+    "wbcode": "1730227",
+    "displayname": "Ташлакский",
+    "gspid": 1504,
+    "gnkid": "3016"
+  },
+  {
+    "id": 193,
+    "wbcode": "1733217",
+    "displayname": "Ургенчский",
+    "gspid": 2204,
+    "gnkid": "3304"
+  },
+  {
+    "id": 194,
+    "wbcode": "1733220",
+    "displayname": "Хазараспский",
+    "gspid": 2201,
+    "gnkid": "3306"
+  },
+  {
+    "id": 195,
+    "wbcode": "1733223",
+    "displayname": "Ханкинский",
+    "gspid": 2206,
+    "gnkid": "3312"
+  },
+  {
+    "id": 196,
+    "wbcode": "1733226",
+    "displayname": "Хивинский",
+    "gspid": 2210,
+    "gnkid": "3305"
+  },
+  {
+    "id": 197,
+    "wbcode": "1733230",
+    "displayname": "Шаватский",
+    "gspid": 2205,
+    "gnkid": "3308"
+  },
+  {
+    "id": 198,
+    "wbcode": "1733233",
+    "displayname": "Янгиарыкский",
+    "gspid": 2202,
+    "gnkid": "3309"
+  },
+  {
+    "id": 199,
+    "wbcode": "1733236",
+    "displayname": "Янгибазарский",
+    "gspid": 2208,
+    "gnkid": "3313"
+  },
+  {
+    "id": 200,
+    "wbcode": "1733401",
+    "displayname": "г. Ургенч",
+    "gspid": 2211,
+    "gnkid": "3301\n"
+  },
+  {
+    "id": 201,
+    "wbcode": "1733212",
+    "displayname": "Кошкупырский",
+    "gspid": 2209,
+    "gnkid": "3310\n"
+  },
+  {
+    "id": 202,
+    "wbcode": "1733406",
+    "displayname": "г. Хива",
+    "gspid": 2212,
+    "gnkid": null
+  },
+  {
+    "id": 203,
+    "wbcode": "1733208",
+    "displayname": "Гурленский",
+    "gspid": 2203,
+    "gnkid": "3307\n"
+  },
+  {
+    "id": 204,
+    "wbcode": "1733221",
+    "displayname": "Тупраккалинский",
+    "gspid": 739001141,
+    "gnkid": null
+  },
+  {
+    "id": 205,
+    "wbcode": "1733204",
+    "displayname": "Багатский",
+    "gspid": 2207,
+    "gnkid": "3311\n"
+  },
+  {
+    "id": 207,
+    "wbcode": "1703209",
+    "displayname": "Бустанский",
+    "gspid": 1705,
+    "gnkid": null
+  },
+  {
+    "id": 208,
+    "wbcode": "1712412",
+    "displayname": "Ғозғон шаҳри",
+    "gspid": 739001180,
+    "gnkid": null
+  }
+]

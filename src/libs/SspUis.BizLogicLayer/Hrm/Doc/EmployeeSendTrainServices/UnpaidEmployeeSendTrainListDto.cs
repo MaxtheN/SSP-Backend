@@ -1,0 +1,20 @@
+using GenericServices;
+using iText.Layout.Element;
+using SspUis.DataLayer.EfClasses.Hrm;
+using SspUis.DataLayer.Repositories.Hrm;
+using System;
+using System.Collections.Generic;
+using WEBASE.Models;
+
+namespace SspUis.BizLogicLayer.Hrm
+{
+    public class UnpaidEmployeeSendTrainListDto : EmployeeSendTrainTableDlDto, ILinkToEntity<EmployeeSendTrainTable>
+    {
+        public string Department { get; set; } = null!;
+        public string Employee { get; set; } = null!;
+        public long DocumentId { get; set; }
+        public int DocumentStatusId { get; set; }
+        public DateTime DocOn { get; set; }
+        
+    }
+}

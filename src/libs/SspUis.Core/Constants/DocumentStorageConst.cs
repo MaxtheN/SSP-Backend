@@ -1,0 +1,57 @@
+namespace SspUis.Core;
+
+public class DocumentStorageConst
+{
+    public const string REQUEST_BASIC_FILES = "request-basic-files";
+    public const string REQUEST_ORDER_FILES = "request-order-files";
+    public const string REQUEST_HISTORY_FILES = "request-history-files";
+    public const string REQUEST_POSTPONEMENT_FILES = "request-postponement-files";
+    public const string REQUEST_POSTPONEMENT_HISTORY_FILES = "request-postponement-history-files";
+    public const string ATTESTATION_FILES = "attestation-files";
+    public const string MEDIATION_FILES = "mediation-files";
+    public const string PROPHYLAXIS_FILES = "prophylaxis-files";
+    public const string INSPECTION_RESULT_ACT_FILES = "inspection-result-act-files";
+    public const string INSPECTION_RESULT_MEASURES_OF_INFLUENCE_FILES = "inspection-result-measures-of-influence-files";
+    public const string INSPECTION_RESULT_MEASURES_RESULT_FILES = "inspection-result-measures-result-files";
+    public const string INSPECTION_RESULT_CANCELLED_MEASURES_FILES = "inspection-result-cancelled-measures-files";
+    public const string INSPECTION_RESULT_NOTIFICATION_FILES = "inspection-result-notification-files";
+    public const string NEWS_IMAGE = "news-image";
+    public const string SIGN_DATA = "sign-data";
+    public const string ANSWER_LETTER_CONTENT = "answer-letter-content";
+    public const string DOC_PRTN_CONTRACT_FILES = "prtn-contract-files";
+    public const string HL_PERSON_FILES = "person-files";
+    public const string DOC_PROPOSAL_FILE = "proposal-files";
+    public const string DOC_CLAIM_APPLICATION_FILES = "claim-application-files";
+    public const string DOC_MONO_APPLICATION_FILES = "mono-application-files";
+    public const string DOC_MEMSHIP_APPLICATION_FILES = "memship-application-files";
+    public const string DOC_MEDIATION_FILE = "mediation-files";
+    public const string DOC_APPLICATION_FOR_COURT_FILE = "doc-application-for-court-file";
+    public const string DOC_JOIN_ANTI_CORRUPTION_APPLICATION_FILES = "doc-join-anti-corruption-application-files";
+    public const string DOC_JOIN_ANTI_CORRUPTION_RESULT_FILES = "doc-join-anti-corruption-result-files";
+    public const string DOC_MEMSHIP_YEARLY_PLAN_FILES = "doc-memship-yearly-plan-files";
+    public const string DOC_MEMSHIP_PAYMENT_ORDER_FILES = "doc-memship-payment_order-files";
+    public const string DOC_SRV_YEARLY_PLAN_FILES = "doc-srv-yearly-plan-files";
+    public const string DOC_SRV_APPLICATION_YEARLY_PLAN_FILES = "doc-srv-application-yearly-plan-files";
+    public const string INFO_NEED_CHAMBER_SERVICE_FILES = "info_need_chamber_service_files";
+    public const string INFO_ORGANIZATION_FILES = "info_organization_files";
+    public const string SYS_DOCUMENT_TEMPLETE = "sys-document-templete";
+    public const string DOC_SERVICE_APPLICATION_TABLE_FILES = "doc-service-application-table-files";
+    public const string DOC_ARBITRATION_APPLICATION = "doc-arbitration-application";
+    public const string DOC_MEMSHIP_CONTRACT_FILE = "doc-memship-contract-file";
+    public const string DOC_MEMSHIP_CERTIFICATE_FILES = "doc-memship-certificate-file";
+    public const string DOC_CANDITATES_CONFIRMATION_TABLE_FILES = "doc-candidates-confirmation-table-files";
+    public const string DOC_DUAL_SUBSIDY_REQUEST_FILES = "dual-subsidy-request-files";
+    public const string DOC_APPEAL_APPLICATION = "doc-appeal-application";
+    public const string DOC_CALL_CENTER_APPEAL = "doc-call-center-appeal";
+    public const string DOC_ARBITRATION_DISCUSSION = "doc-arbitration_discussion";
+    public const string DOC_ARBITRATION_RESULT = "doc-arbitration-result";
+    public const string DOC_ARBITRATION_DELAY = "doc-arbitration_delay";
+    public const string DOC_MEMSHIP_NEW_CONTRACTOR = "doc-memship-new-contractor";
+    public const string DOC_CHASTISEMENT = "doc-chastisement";
+    public const string DOC_EMPLOYEE_MOD_HELP = "doc-employee-mod-help";
+    public const string DOC_EMPLOYEE_SEND_BUSINESS_TRIP = "doc-employee-send-business-trip";
+    public const string DOC_EMPLOYEE_LEAVE_ORDER_IS_WITH_OUT_PAY = "doc-employee-leave-order-is-with-out-pay";
+    public const string DOC_EMPLOYEE_LEAVE_ORDER = "doc-employee-leave-order";
+    public const string DOC_RE_CALL_LEAVE = "doc-re-call-leave";
+    public const string DOC_APPOINT_EMPLOYEE_COMMON = "doc-appoint-employee-common";
+}

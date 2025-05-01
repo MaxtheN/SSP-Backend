@@ -1,0 +1,1710 @@
+[
+  {
+    "id": 1,
+    "wbcode": "AUS",
+    "displayname": "АВСТРАЛИЯ",
+    "gspid": 254,
+    "gnkid": null
+  },
+  {
+    "id": 2,
+    "wbcode": "AUT",
+    "displayname": "АВСТРИЙСКАЯ РЕСПУБЛИКА",
+    "gspid": 0,
+    "gnkid": null
+  },
+  {
+    "id": 3,
+    "wbcode": "AZE",
+    "displayname": "РЕСПУБЛИКА АЗЕРБАЙДЖАН",
+    "gspid": 1,
+    "gnkid": null
+  },
+  {
+    "id": 4,
+    "wbcode": "ALB",
+    "displayname": "РЕСПУБЛИКА АЛБАНИЯ",
+    "gspid": 121,
+    "gnkid": null
+  },
+  {
+    "id": 5,
+    "wbcode": "DZA",
+    "displayname": "АЛЖИРСКАЯ НАРОДНАЯ ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА",
+    "gspid": 2,
+    "gnkid": null
+  },
+  {
+    "id": 6,
+    "wbcode": "AIA",
+    "displayname": "АНГИЛЬЯ",
+    "gspid": 255,
+    "gnkid": null
+  },
+  {
+    "id": 7,
+    "wbcode": "AGO",
+    "displayname": "РЕСПУБЛИКА АНГОЛА",
+    "gspid": 93,
+    "gnkid": null
+  },
+  {
+    "id": 8,
+    "wbcode": "AND",
+    "displayname": "КНЯЖЕСТВО АНДОРРА",
+    "gspid": 57,
+    "gnkid": null
+  },
+  {
+    "id": 9,
+    "wbcode": "ATA",
+    "displayname": "АНТАРКТИДА",
+    "gspid": 5,
+    "gnkid": null
+  },
+  {
+    "id": 10,
+    "wbcode": "ATG",
+    "displayname": "АНТИГУА И БАРБУДА",
+    "gspid": 6,
+    "gnkid": null
+  },
+  {
+    "id": 11,
+    "wbcode": "ARG",
+    "displayname": "АРГЕНТИНСКАЯ РЕСПУБЛИКА",
+    "gspid": 9,
+    "gnkid": null
+  },
+  {
+    "id": 12,
+    "wbcode": "ARM",
+    "displayname": "РЕСПУБЛИКА АРМЕНИЯ",
+    "gspid": 122,
+    "gnkid": null
+  },
+  {
+    "id": 13,
+    "wbcode": "ABW",
+    "displayname": "ОСТРОВ АРУБА",
+    "gspid": 106,
+    "gnkid": null
+  },
+  {
+    "id": 14,
+    "wbcode": "AFG",
+    "displayname": "ПЕРЕХОДНОЕ ИСЛАМСКОЕ ГОСУДАРСТВО АФГАНИСТАН",
+    "gspid": 53,
+    "gnkid": null
+  },
+  {
+    "id": 15,
+    "wbcode": "BHS",
+    "displayname": "СОДРУЖЕСТВО БАГАМЫ",
+    "gspid": 200,
+    "gnkid": null
+  },
+  {
+    "id": 16,
+    "wbcode": "BGD",
+    "displayname": "НАРОДНАЯ РЕСПУБЛИКА БАНГЛАДЕШ",
+    "gspid": 94,
+    "gnkid": null
+  },
+  {
+    "id": 17,
+    "wbcode": "BRB",
+    "displayname": "БАРБАДОС",
+    "gspid": 10,
+    "gnkid": null
+  },
+  {
+    "id": 18,
+    "wbcode": "BHR",
+    "displayname": "КОРОЛЕВСТВО БАХРЕЙН",
+    "gspid": 30,
+    "gnkid": null
+  },
+  {
+    "id": 19,
+    "wbcode": "BLR",
+    "displayname": "РЕСПУБЛИКА БЕЛАРУСЬ",
+    "gspid": 123,
+    "gnkid": null
+  },
+  {
+    "id": 20,
+    "wbcode": "BLZ",
+    "displayname": "БЕЛИЗ",
+    "gspid": 11,
+    "gnkid": null
+  },
+  {
+    "id": 21,
+    "wbcode": "BEL",
+    "displayname": "КОРОЛЕВСТВО БЕЛЬГИИ",
+    "gspid": 63,
+    "gnkid": null
+  },
+  {
+    "id": 22,
+    "wbcode": "BEN",
+    "displayname": "РЕСПУБЛИКА БЕНИН",
+    "gspid": 95,
+    "gnkid": null
+  },
+  {
+    "id": 23,
+    "wbcode": "BMU",
+    "displayname": "БЕРМУДСКИЕ ОСТРОВА",
+    "gspid": 12,
+    "gnkid": null
+  },
+  {
+    "id": 24,
+    "wbcode": "BGR",
+    "displayname": "РЕСПУБЛИКА БОЛГАРИЯ",
+    "gspid": 124,
+    "gnkid": null
+  },
+  {
+    "id": 25,
+    "wbcode": "BOL",
+    "displayname": "РЕСПУБЛИКА БОЛИВИЯ",
+    "gspid": 125,
+    "gnkid": null
+  },
+  {
+    "id": 26,
+    "wbcode": "BIH",
+    "displayname": "БОСНИЯ И ГЕРЦЕГОВИНА",
+    "gspid": 13,
+    "gnkid": null
+  },
+  {
+    "id": 27,
+    "wbcode": "BWA",
+    "displayname": "РЕСПУБЛИКА Б  СВАНА",
+    "gspid": 126,
+    "gnkid": null
+  },
+  {
+    "id": 28,
+    "wbcode": "BRA",
+    "displayname": "ФЕДЕРАТИВНАЯ РЕСПУБЛИКА БРАЗИЛИЯ",
+    "gspid": 222,
+    "gnkid": null
+  },
+  {
+    "id": 29,
+    "wbcode": "IOT",
+    "displayname": "БРИТАНСКАЯ ТЕРРИТОРИЯ В ИНДИЙСКОМ ОКЕАНЕ (БРИТ.)",
+    "gspid": null,
+    "gnkid": null
+  },
+  {
+    "id": 30,
+    "wbcode": "BRN",
+    "displayname": "БРУНЕЙ-ДАРУССАЛАМ",
+    "gspid": 16,
+    "gnkid": null
+  },
+  {
+    "id": 31,
+    "wbcode": "BVT",
+    "displayname": "ОСТРОВ БУВЕ",
+    "gspid": 107,
+    "gnkid": null
+  },
+  {
+    "id": 32,
+    "wbcode": "BFA",
+    "displayname": "БУРКИНА-ФАСО",
+    "gspid": 17,
+    "gnkid": null
+  },
+  {
+    "id": 33,
+    "wbcode": "BDI",
+    "displayname": "РЕСПУБЛИКА БУРУНДИ",
+    "gspid": 127,
+    "gnkid": null
+  },
+  {
+    "id": 34,
+    "wbcode": "BTN",
+    "displayname": "КОРОЛЕВСТВО БУТАН",
+    "gspid": 64,
+    "gnkid": null
+  },
+  {
+    "id": 35,
+    "wbcode": "VUT",
+    "displayname": "РЕСПУБЛИКА ВАНУАТУ",
+    "gspid": 128,
+    "gnkid": null
+  },
+  {
+    "id": 36,
+    "wbcode": "VAT",
+    "displayname": "ПАПСКИЙ ПРЕСТОЛ (ГОСУДАРСТВО-ГОРОД ВАТИКАН)",
+    "gspid": 35,
+    "gnkid": null
+  },
+  {
+    "id": 37,
+    "wbcode": "HUN",
+    "displayname": "ВЕНГЕРСКАЯ РЕСПУБЛИКА",
+    "gspid": 19,
+    "gnkid": null
+  },
+  {
+    "id": 38,
+    "wbcode": "VEN",
+    "displayname": "БОЛИВАРИЙСКАЯ РЕСПУБЛИКА ВЕНЕСУЭЛА",
+    "gspid": 129,
+    "gnkid": null
+  },
+  {
+    "id": 39,
+    "wbcode": "VIR",
+    "displayname": "ВИРГИНСКИЕ ОСТРОВА (США)",
+    "gspid": 20,
+    "gnkid": null
+  },
+  {
+    "id": 40,
+    "wbcode": "VGB",
+    "displayname": "БРИТАНСКИЕ ВИРГИНСКИЕ ОСТРОВА",
+    "gspid": 15,
+    "gnkid": null
+  },
+  {
+    "id": 41,
+    "wbcode": "ASM",
+    "displayname": "АМЕРИКАНСКОЕ САМОА (США)",
+    "gspid": 3,
+    "gnkid": null
+  },
+  {
+    "id": 42,
+    "wbcode": "VNM",
+    "displayname": "СОЦИАЛИСТИЧЕСКАЯ РЕСПУБЛИКА ВЬЕТНАМ",
+    "gspid": 96,
+    "gnkid": null
+  },
+  {
+    "id": 43,
+    "wbcode": "GAB",
+    "displayname": "ГАБОНСКАЯ РЕСПУБЛИКА",
+    "gspid": 23,
+    "gnkid": null
+  },
+  {
+    "id": 44,
+    "wbcode": "HTI",
+    "displayname": "РЕСПУБЛИКА ГАИТИ",
+    "gspid": 130,
+    "gnkid": null
+  },
+  {
+    "id": 45,
+    "wbcode": "GUY",
+    "displayname": "РЕСПУБЛИКА ГАЙАНА",
+    "gspid": 61,
+    "gnkid": null
+  },
+  {
+    "id": 46,
+    "wbcode": "GMB",
+    "displayname": "РЕСПУБЛИКА ГАМБИЯ",
+    "gspid": 131,
+    "gnkid": null
+  },
+  {
+    "id": 47,
+    "wbcode": "GHA",
+    "displayname": "РЕСПУБЛИКА ГАНА",
+    "gspid": 132,
+    "gnkid": null
+  },
+  {
+    "id": 48,
+    "wbcode": "GLP",
+    "displayname": "ГВАДЕЛУПА (ФР.)",
+    "gspid": 24,
+    "gnkid": null
+  },
+  {
+    "id": 49,
+    "wbcode": "GTM",
+    "displayname": "РЕСПУБЛИКА ГВАТЕМАЛА",
+    "gspid": 133,
+    "gnkid": null
+  },
+  {
+    "id": 50,
+    "wbcode": "GUF",
+    "displayname": "ФРАНЦУЗСКАЯ ГВИАНА (ФР.)",
+    "gspid": 263,
+    "gnkid": null
+  },
+  {
+    "id": 51,
+    "wbcode": "GIN",
+    "displayname": "ГВИНЕЙСКАЯ РЕСПУБЛИКА",
+    "gspid": 26,
+    "gnkid": null
+  },
+  {
+    "id": 52,
+    "wbcode": "GNB",
+    "displayname": "РЕСПУБЛИКА ГВИНЕЯ-БИСАУ",
+    "gspid": 134,
+    "gnkid": null
+  },
+  {
+    "id": 53,
+    "wbcode": "DEU",
+    "displayname": "ФЕДЕРАТИВНАЯ РЕСПУБЛИКА ГЕРМАНИЯ",
+    "gspid": 27,
+    "gnkid": null
+  },
+  {
+    "id": 54,
+    "wbcode": "GGY",
+    "displayname": "ГЕРНСИ",
+    "gspid": null,
+    "gnkid": null
+  },
+  {
+    "id": 55,
+    "wbcode": "GIB",
+    "displayname": "ГИБРАЛТАР (БРИТ.)",
+    "gspid": 28,
+    "gnkid": null
+  },
+  {
+    "id": 56,
+    "wbcode": "HND",
+    "displayname": "РЕСПУБЛИКА ГОНДУРАС",
+    "gspid": 135,
+    "gnkid": null
+  },
+  {
+    "id": 57,
+    "wbcode": "HKG",
+    "displayname": "СПЕЦИАЛЬНЫЙ АДМИНИСТРАТИВНЫЙ РЕГИОН КИТАЯ ГОНКОНГ",
+    "gspid": 29,
+    "gnkid": null
+  },
+  {
+    "id": 58,
+    "wbcode": "GRD",
+    "displayname": "ГРЕНАДА",
+    "gspid": 36,
+    "gnkid": null
+  },
+  {
+    "id": 59,
+    "wbcode": "GRL",
+    "displayname": "ГРЕНЛАНДИЯ",
+    "gspid": 37,
+    "gnkid": null
+  },
+  {
+    "id": 60,
+    "wbcode": "GRC",
+    "displayname": "ГРЕЧЕСКАЯ РЕСПУБЛИКА",
+    "gspid": 38,
+    "gnkid": null
+  },
+  {
+    "id": 61,
+    "wbcode": "GEO",
+    "displayname": "РЕСПУБЛИКА ГРУЗИЯ",
+    "gspid": 136,
+    "gnkid": null
+  },
+  {
+    "id": 62,
+    "wbcode": "GUM",
+    "displayname": "ГУАМ (США)",
+    "gspid": 39,
+    "gnkid": null
+  },
+  {
+    "id": 63,
+    "wbcode": "DNK",
+    "displayname": "КОРОЛЕВСТВО ДАНИЯ",
+    "gspid": 65,
+    "gnkid": null
+  },
+  {
+    "id": 64,
+    "wbcode": "JEY",
+    "displayname": "ДЖЕРСИ",
+    "gspid": null,
+    "gnkid": null
+  },
+  {
+    "id": 65,
+    "wbcode": "DJI",
+    "displayname": "РЕСПУБЛИКА ДЖИБУТИ",
+    "gspid": 137,
+    "gnkid": null
+  },
+  {
+    "id": 66,
+    "wbcode": "DMA",
+    "displayname": "СОДРУЖЕСТВО ДОМИНИКИ",
+    "gspid": 201,
+    "gnkid": null
+  },
+  {
+    "id": 67,
+    "wbcode": "DOM",
+    "displayname": "ДОМИНИКАНСКАЯ РЕСПУБЛИКА",
+    "gspid": 44,
+    "gnkid": null
+  },
+  {
+    "id": 68,
+    "wbcode": "EGY",
+    "displayname": "АРАБСКАЯ РЕСПУБЛИКА ЕГИПЕТ (АРЕ)",
+    "gspid": 8,
+    "gnkid": null
+  },
+  {
+    "id": 69,
+    "wbcode": "ZMB",
+    "displayname": "РЕСПУБЛИКА ЗАМБИЯ",
+    "gspid": 139,
+    "gnkid": null
+  },
+  {
+    "id": 70,
+    "wbcode": "ESH",
+    "displayname": "ЗАПАДНАЯ САХАРА",
+    "gspid": 45,
+    "gnkid": null
+  },
+  {
+    "id": 71,
+    "wbcode": "ZWE",
+    "displayname": "РЕСПУБЛИКА ЗИМБАБВЕ",
+    "gspid": 140,
+    "gnkid": null
+  },
+  {
+    "id": 72,
+    "wbcode": "ISR",
+    "displayname": "ГОСУДАРСТВО ИЗРАИЛЬ",
+    "gspid": 31,
+    "gnkid": null
+  },
+  {
+    "id": 73,
+    "wbcode": "IND",
+    "displayname": "РЕСПУБЛИКА ИНДИЯ",
+    "gspid": 141,
+    "gnkid": null
+  },
+  {
+    "id": 74,
+    "wbcode": "IDN",
+    "displayname": "РЕСПУБЛИКА ИНДОНЕЗИЯ",
+    "gspid": 142,
+    "gnkid": null
+  },
+  {
+    "id": 75,
+    "wbcode": "JOR",
+    "displayname": "ИОРДАНСКОЕ ХАШИМИТСКОЕ КОРОЛЕВСТВО",
+    "gspid": 47,
+    "gnkid": null
+  },
+  {
+    "id": 76,
+    "wbcode": "IRQ",
+    "displayname": "РЕСПУБЛИКА ИРАК",
+    "gspid": 48,
+    "gnkid": null
+  },
+  {
+    "id": 77,
+    "wbcode": "IRN",
+    "displayname": "ИСЛАМСКАЯ РЕСПУБЛИКА ИРАН",
+    "gspid": 50,
+    "gnkid": null
+  },
+  {
+    "id": 78,
+    "wbcode": "IRL",
+    "displayname": "ИРЛАНДИЯ",
+    "gspid": 49,
+    "gnkid": null
+  },
+  {
+    "id": 79,
+    "wbcode": "ISL",
+    "displayname": "РЕСПУБЛИКА ИСЛАНДИЯ",
+    "gspid": 143,
+    "gnkid": null
+  },
+  {
+    "id": 80,
+    "wbcode": "ESP",
+    "displayname": "КОРОЛЕВСТВО ИСПАНИЯ",
+    "gspid": 66,
+    "gnkid": null
+  },
+  {
+    "id": 81,
+    "wbcode": "ITA",
+    "displayname": "ИТАЛЬЯНСКАЯ РЕСПУБЛИКА",
+    "gspid": 54,
+    "gnkid": null
+  },
+  {
+    "id": 82,
+    "wbcode": "YEM",
+    "displayname": "ЙЕМЕНСКАЯ РЕСПУБЛИКА",
+    "gspid": 144,
+    "gnkid": null
+  },
+  {
+    "id": 83,
+    "wbcode": "CPV",
+    "displayname": "РЕСПУБЛИКА КАБО-ВЕРДЕ",
+    "gspid": 145,
+    "gnkid": null
+  },
+  {
+    "id": 84,
+    "wbcode": "KAZ",
+    "displayname": "РЕСПУБЛИКА КАЗАХСТАН",
+    "gspid": 146,
+    "gnkid": null
+  },
+  {
+    "id": 85,
+    "wbcode": "CYM",
+    "displayname": "ОСТРОВА КАЙМАН",
+    "gspid": 113,
+    "gnkid": null
+  },
+  {
+    "id": 86,
+    "wbcode": "KHM",
+    "displayname": "КОРОЛЕВСТВО КАМБОДЖА",
+    "gspid": 32,
+    "gnkid": null
+  },
+  {
+    "id": 87,
+    "wbcode": "CMR",
+    "displayname": "РЕСПУБЛИКА КАМЕРУН",
+    "gspid": 147,
+    "gnkid": null
+  },
+  {
+    "id": 88,
+    "wbcode": "CAN",
+    "displayname": "КАНАДА",
+    "gspid": 55,
+    "gnkid": null
+  },
+  {
+    "id": 89,
+    "wbcode": "QAT",
+    "displayname": "ГОСУДАРСТВО КАТАР",
+    "gspid": 33,
+    "gnkid": null
+  },
+  {
+    "id": 90,
+    "wbcode": "KEN",
+    "displayname": "РЕСПУБЛИКА КЕНИЯ",
+    "gspid": 148,
+    "gnkid": null
+  },
+  {
+    "id": 91,
+    "wbcode": "CYP",
+    "displayname": "РЕСПУБЛИКА КИПР",
+    "gspid": 149,
+    "gnkid": null
+  },
+  {
+    "id": 92,
+    "wbcode": "KIR",
+    "displayname": "РЕСПУБЛИКА КИРИБАТИ",
+    "gspid": 150,
+    "gnkid": null
+  },
+  {
+    "id": 93,
+    "wbcode": "CHN",
+    "displayname": "КИТАЙСКАЯ НАРОДНАЯ РЕСПУБЛИКА (КНР)",
+    "gspid": 56,
+    "gnkid": null
+  },
+  {
+    "id": 94,
+    "wbcode": "CCK",
+    "displayname": "КОКОСОВЫЕ (КИЛИНГ) ОСТРОВА",
+    "gspid": 60,
+    "gnkid": null
+  },
+  {
+    "id": 95,
+    "wbcode": "COL",
+    "displayname": "РЕСПУБЛИКА КОЛУМБИЯ",
+    "gspid": 151,
+    "gnkid": null
+  },
+  {
+    "id": 96,
+    "wbcode": "COM",
+    "displayname": "СОЮЗ КОМОРЫ",
+    "gspid": 221,
+    "gnkid": null
+  },
+  {
+    "id": 97,
+    "wbcode": "COG",
+    "displayname": "РЕСПУБЛИКА КОНГО",
+    "gspid": 97,
+    "gnkid": null
+  },
+  {
+    "id": 98,
+    "wbcode": "COD",
+    "displayname": "ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА КОНГО",
+    "gspid": 500,
+    "gnkid": null
+  },
+  {
+    "id": 99,
+    "wbcode": "KOR",
+    "displayname": "РЕСПУБЛИКА КОРЕЯ",
+    "gspid": 152,
+    "gnkid": null
+  },
+  {
+    "id": 100,
+    "wbcode": "PRK",
+    "displayname": "КОРЕЙСКАЯ НАРОДНО-ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА",
+    "gspid": 62,
+    "gnkid": null
+  },
+  {
+    "id": 101,
+    "wbcode": "CRI",
+    "displayname": "РЕСПУБЛИКА КОСТА-РИКА",
+    "gspid": 153,
+    "gnkid": null
+  },
+  {
+    "id": 102,
+    "wbcode": "CIV",
+    "displayname": "РЕСПУБЛИКА К   Д`ИВУАР",
+    "gspid": 154,
+    "gnkid": null
+  },
+  {
+    "id": 103,
+    "wbcode": "CUB",
+    "displayname": "РЕСПУБЛИКА КУБА",
+    "gspid": 155,
+    "gnkid": null
+  },
+  {
+    "id": 104,
+    "wbcode": "KWT",
+    "displayname": "ГОСУДАРСТВО КУВЕЙТ",
+    "gspid": 34,
+    "gnkid": null
+  },
+  {
+    "id": 105,
+    "wbcode": "KGZ",
+    "displayname": "РЕСПУБЛИКА КЫРГЫЗСТАН",
+    "gspid": 242,
+    "gnkid": null
+  },
+  {
+    "id": 106,
+    "wbcode": "LAO",
+    "displayname": "ЛАОССКАЯ НАРОДНО-ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА",
+    "gspid": 77,
+    "gnkid": null
+  },
+  {
+    "id": 107,
+    "wbcode": "LVA",
+    "displayname": "ЛАТВИЙСКАЯ РЕСПУБЛИКА",
+    "gspid": 78,
+    "gnkid": null
+  },
+  {
+    "id": 108,
+    "wbcode": "LSO",
+    "displayname": "КОРОЛЕВСТВО ЛЕС  О",
+    "gspid": 67,
+    "gnkid": null
+  },
+  {
+    "id": 109,
+    "wbcode": "LBR",
+    "displayname": "РЕСПУБЛИКА ЛИБЕРИЯ",
+    "gspid": 157,
+    "gnkid": null
+  },
+  {
+    "id": 110,
+    "wbcode": "LBN",
+    "displayname": "ЛИВАНСКАЯ РЕСПУБЛИКА",
+    "gspid": 79,
+    "gnkid": null
+  },
+  {
+    "id": 111,
+    "wbcode": "LBY",
+    "displayname": "СОЦИАЛИСТИЧЕСКАЯ НАРОДНАЯ ЛИВИЙСКАЯ АРАБСКАЯ ДЖАМАХИРИЯ",
+    "gspid": 207,
+    "gnkid": null
+  },
+  {
+    "id": 112,
+    "wbcode": "LTU",
+    "displayname": "ЛИТОВСКАЯ РЕСПУБЛИКА",
+    "gspid": 80,
+    "gnkid": null
+  },
+  {
+    "id": 113,
+    "wbcode": "LIE",
+    "displayname": "КНЯЖЕСТВО ЛИХТЕНШТЕЙН",
+    "gspid": 58,
+    "gnkid": null
+  },
+  {
+    "id": 114,
+    "wbcode": "LUX",
+    "displayname": "ВЕЛИКОЕ ГЕРЦОГСТВО ЛЮКСЕМБУРГ",
+    "gspid": 18,
+    "gnkid": null
+  },
+  {
+    "id": 115,
+    "wbcode": "MUS",
+    "displayname": "РЕСПУБЛИКА МАВРИКИЙ",
+    "gspid": 81,
+    "gnkid": null
+  },
+  {
+    "id": 116,
+    "wbcode": "MRT",
+    "displayname": "ИСЛАМСКАЯ РЕСПУБЛИКА МАВРИТАНИЯ",
+    "gspid": 51,
+    "gnkid": null
+  },
+  {
+    "id": 117,
+    "wbcode": "MDG",
+    "displayname": "ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА МАДАГАСКАР",
+    "gspid": 40,
+    "gnkid": null
+  },
+  {
+    "id": 118,
+    "wbcode": "MYT",
+    "displayname": "МАЙ  ТА",
+    "gspid": 276,
+    "gnkid": null
+  },
+  {
+    "id": 119,
+    "wbcode": "MAC",
+    "displayname": "СПЕЦИАЛЬНЫЙ АДМИНИСТРАТИВНЫЙ РЕГИОН КИТАЯ МАКАО",
+    "gspid": 82,
+    "gnkid": null
+  },
+  {
+    "id": 120,
+    "wbcode": "MKD",
+    "displayname": "РЕСПУБЛИКА МАКЕДОНИЯ",
+    "gspid": 83,
+    "gnkid": null
+  },
+  {
+    "id": 121,
+    "wbcode": "MWI",
+    "displayname": "РЕСПУБЛИКА МАЛАВИ",
+    "gspid": 158,
+    "gnkid": null
+  },
+  {
+    "id": 122,
+    "wbcode": "MYS",
+    "displayname": "МАЛАЙЗИЯ",
+    "gspid": 84,
+    "gnkid": null
+  },
+  {
+    "id": 123,
+    "wbcode": "MLI",
+    "displayname": "РЕСПУБЛИКА МАЛИ",
+    "gspid": 159,
+    "gnkid": null
+  },
+  {
+    "id": 124,
+    "wbcode": "UMI",
+    "displayname": "МАЛЫЕ ТИХООКЕАНСКИЕ   ДАЛЕННЫЕ ОСТРОВА (США)",
+    "gspid": null,
+    "gnkid": null
+  },
+  {
+    "id": 125,
+    "wbcode": "MDV",
+    "displayname": "МАЛЬДИВСКАЯ РЕСПУБЛИКА",
+    "gspid": 86,
+    "gnkid": null
+  },
+  {
+    "id": 126,
+    "wbcode": "MLT",
+    "displayname": "РЕСПУБЛИКА МАЛЬТА",
+    "gspid": 160,
+    "gnkid": null
+  },
+  {
+    "id": 127,
+    "wbcode": "MNP",
+    "displayname": "СОДРУЖЕСТВО СЕВЕРНЫХ МАРИАНСКИХ ОСТРОВОВ",
+    "gspid": 202,
+    "gnkid": null
+  },
+  {
+    "id": 128,
+    "wbcode": "MAR",
+    "displayname": "КОРОЛЕВСТВО МАРОККО",
+    "gspid": 68,
+    "gnkid": null
+  },
+  {
+    "id": 129,
+    "wbcode": "MTQ",
+    "displayname": "МАРТИНИКА (ФР.)",
+    "gspid": 87,
+    "gnkid": null
+  },
+  {
+    "id": 130,
+    "wbcode": "MHL",
+    "displayname": "РЕСПУБЛИКА МАРШАЛЛОВЫ ОСТРОВА",
+    "gspid": 88,
+    "gnkid": null
+  },
+  {
+    "id": 131,
+    "wbcode": "MEX",
+    "displayname": "МЕКСИКАНСКИЕ СОЕДИНЕННЫЕ ШТАТЫ",
+    "gspid": 89,
+    "gnkid": null
+  },
+  {
+    "id": 132,
+    "wbcode": "FSM",
+    "displayname": "ФЕДЕРАТИВНЫЕ ШТАТЫ МИКРОНЕЗИИ",
+    "gspid": 224,
+    "gnkid": null
+  },
+  {
+    "id": 133,
+    "wbcode": "MOZ",
+    "displayname": "РЕСПУБЛИКА МОЗАМБИК",
+    "gspid": 98,
+    "gnkid": null
+  },
+  {
+    "id": 134,
+    "wbcode": "MDA",
+    "displayname": "РЕСПУБЛИКА МОЛДОВА",
+    "gspid": 161,
+    "gnkid": null
+  },
+  {
+    "id": 135,
+    "wbcode": "MCO",
+    "displayname": "КНЯЖЕСТВО МОНАКО",
+    "gspid": 59,
+    "gnkid": null
+  },
+  {
+    "id": 136,
+    "wbcode": "MHG",
+    "displayname": "МОНГОЛИЯ",
+    "gspid": 90,
+    "gnkid": null
+  },
+  {
+    "id": 137,
+    "wbcode": "MSR",
+    "displayname": "МОНТСЕРРАТ (БРИТ.)",
+    "gspid": 91,
+    "gnkid": null
+  },
+  {
+    "id": 138,
+    "wbcode": "MMR",
+    "displayname": "СОЮЗ МЬЯНМА",
+    "gspid": 208,
+    "gnkid": null
+  },
+  {
+    "id": 139,
+    "wbcode": "NAM",
+    "displayname": "РЕСПУБЛИКА НАМИБИЯ",
+    "gspid": 92,
+    "gnkid": null
+  },
+  {
+    "id": 140,
+    "wbcode": "NRU",
+    "displayname": "РЕСПУБЛИКА НАУРУ",
+    "gspid": 162,
+    "gnkid": null
+  },
+  {
+    "id": 141,
+    "wbcode": "NPL",
+    "displayname": "КОРОЛЕВСТВО НЕПАЛ",
+    "gspid": 69,
+    "gnkid": null
+  },
+  {
+    "id": 142,
+    "wbcode": "NER",
+    "displayname": "РЕСПУБЛИКА НИГЕР",
+    "gspid": 163,
+    "gnkid": null
+  },
+  {
+    "id": 143,
+    "wbcode": "NGA",
+    "displayname": "ФЕДЕРАТИВНАЯ РЕСПУБЛИКА НИГЕРИЯ",
+    "gspid": 223,
+    "gnkid": null
+  },
+  {
+    "id": 144,
+    "wbcode": "ANT",
+    "displayname": "НИДЕРЛАНДСКИЕ АНТИЛЫ",
+    "gspid": 99,
+    "gnkid": null
+  },
+  {
+    "id": 145,
+    "wbcode": "NLD",
+    "displayname": "КОРОЛЕВСТВО НИДЕРЛАНДЫ",
+    "gspid": 70,
+    "gnkid": null
+  },
+  {
+    "id": 146,
+    "wbcode": "NIC",
+    "displayname": "РЕСПУБЛИКА НИКАРАГУА",
+    "gspid": 164,
+    "gnkid": null
+  },
+  {
+    "id": 147,
+    "wbcode": "NIU",
+    "displayname": "РЕСПУБЛИКА НИУЭ",
+    "gspid": 100,
+    "gnkid": null
+  },
+  {
+    "id": 148,
+    "wbcode": "NZL",
+    "displayname": "НОВАЯ ЗЕЛАНДИЯ",
+    "gspid": 101,
+    "gnkid": null
+  },
+  {
+    "id": 149,
+    "wbcode": "NCL",
+    "displayname": "НОВАЯ КАЛЕДОНИЯ",
+    "gspid": 102,
+    "gnkid": null
+  },
+  {
+    "id": 150,
+    "wbcode": "NOR",
+    "displayname": "КОРОЛЕВСТВО НОРВЕГИЯ",
+    "gspid": 71,
+    "gnkid": null
+  },
+  {
+    "id": 151,
+    "wbcode": "NFK",
+    "displayname": "ОСТРОВ НОРФОЛК",
+    "gspid": 103,
+    "gnkid": null
+  },
+  {
+    "id": 152,
+    "wbcode": "IMY",
+    "displayname": "ОСТРОВ МЭН",
+    "gspid": 109,
+    "gnkid": null
+  },
+  {
+    "id": 153,
+    "wbcode": "CXR",
+    "displayname": "ОСТРОВ РОЖДЕСТВА (АВСТРАЛ.)",
+    "gspid": null,
+    "gnkid": null
+  },
+  {
+    "id": 154,
+    "wbcode": "COK",
+    "displayname": "ОСТРОВА КУКА (Н. ЗЕЛ.)",
+    "gspid": 114,
+    "gnkid": null
+  },
+  {
+    "id": 155,
+    "wbcode": "ARE",
+    "displayname": "ОБЪЕДИНЕННЫЕ АРАБСКИЕ ЭМИРАТЫ",
+    "gspid": 105,
+    "gnkid": null
+  },
+  {
+    "id": 156,
+    "wbcode": "OMN",
+    "displayname": "СУЛТАНАТ ОМАН",
+    "gspid": 210,
+    "gnkid": null
+  },
+  {
+    "id": 157,
+    "wbcode": "PAK",
+    "displayname": "ИСЛАМСКАЯ РЕСПУБЛИКА ПАКИСТАН",
+    "gspid": 52,
+    "gnkid": null
+  },
+  {
+    "id": 158,
+    "wbcode": "PLW",
+    "displayname": "РЕСПУБЛИКА ПАЛАУ",
+    "gspid": 165,
+    "gnkid": null
+  },
+  {
+    "id": 159,
+    "wbcode": "PSE",
+    "displayname": "ОККУПИРОВАННАЯ ПАЛЕСТИНСКАЯ ТЕРРИТОРИЯ",
+    "gspid": 277,
+    "gnkid": null
+  },
+  {
+    "id": 160,
+    "wbcode": "PAN",
+    "displayname": "РЕСПУБЛИКА ПАНАМА",
+    "gspid": 166,
+    "gnkid": null
+  },
+  {
+    "id": 161,
+    "wbcode": "PNG",
+    "displayname": "ПАПУА - НОВАЯ ГВИНЕЯ",
+    "gspid": 117,
+    "gnkid": null
+  },
+  {
+    "id": 162,
+    "wbcode": "PRY",
+    "displayname": "РЕСПУБЛИКА ПАРАГВАЙ",
+    "gspid": 167,
+    "gnkid": null
+  },
+  {
+    "id": 163,
+    "wbcode": "PER",
+    "displayname": "РЕСПУБЛИКА ПЕРУ",
+    "gspid": 168,
+    "gnkid": null
+  },
+  {
+    "id": 164,
+    "wbcode": "PCN",
+    "displayname": "ПИТКЭРН (БРИТ.)",
+    "gspid": 118,
+    "gnkid": null
+  },
+  {
+    "id": 165,
+    "wbcode": "POL",
+    "displayname": "РЕСПУБЛИКА ПОЛЬША",
+    "gspid": 169,
+    "gnkid": null
+  },
+  {
+    "id": 166,
+    "wbcode": "PRT",
+    "displayname": "ПОРТУГАЛЬСКАЯ РЕСПУБЛИКА",
+    "gspid": 119,
+    "gnkid": null
+  },
+  {
+    "id": 167,
+    "wbcode": "PRI",
+    "displayname": "ПУЭРТО-РИКО",
+    "gspid": 120,
+    "gnkid": null
+  },
+  {
+    "id": 168,
+    "wbcode": "REU",
+    "displayname": "РЕЮНЬОН",
+    "gspid": 191,
+    "gnkid": null
+  },
+  {
+    "id": 169,
+    "wbcode": "RUS",
+    "displayname": "РОССИЙСКАЯ ФЕДЕРАЦИЯ",
+    "gspid": 192,
+    "gnkid": null
+  },
+  {
+    "id": 170,
+    "wbcode": "RWA",
+    "displayname": "РУАНДИЙСКАЯ РЕСПУБЛИКА",
+    "gspid": 193,
+    "gnkid": null
+  },
+  {
+    "id": 171,
+    "wbcode": "ROM",
+    "displayname": "РУМЫНИЯ",
+    "gspid": 170,
+    "gnkid": null
+  },
+  {
+    "id": 172,
+    "wbcode": "WSM",
+    "displayname": "НЕЗАВИСИМОЕ ГОСУДАРСТВО САМОА",
+    "gspid": 194,
+    "gnkid": null
+  },
+  {
+    "id": 173,
+    "wbcode": "SMR",
+    "displayname": "РЕСПУБЛИКА САН-МАРИНО",
+    "gspid": 171,
+    "gnkid": null
+  },
+  {
+    "id": 174,
+    "wbcode": "STR",
+    "displayname": "ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА САН-ТОМЕ И ПРИНСИПИ",
+    "gspid": null,
+    "gnkid": null
+  },
+  {
+    "id": 175,
+    "wbcode": "SAU",
+    "displayname": "КОРОЛЕВСТВО САУДОВСКАЯ АРАВИЯ",
+    "gspid": 72,
+    "gnkid": null
+  },
+  {
+    "id": 176,
+    "wbcode": "SWZ",
+    "displayname": "КОРОЛЕВСТВО СВАЗИЛЕНД",
+    "gspid": 73,
+    "gnkid": null
+  },
+  {
+    "id": 177,
+    "wbcode": "SHN",
+    "displayname": "ОСТРОВ СВЯТОЙ ЕЛЕНЫ (БРИТ.)",
+    "gspid": 111,
+    "gnkid": null
+  },
+  {
+    "id": 178,
+    "wbcode": "SYC",
+    "displayname": "РЕСПУБЛИКА СЕЙШЕЛЫ",
+    "gspid": 172,
+    "gnkid": null
+  },
+  {
+    "id": 179,
+    "wbcode": "SPM",
+    "displayname": "СЕН-ПЬЕР И МИКЕЛОН (ФР.)",
+    "gspid": 196,
+    "gnkid": null
+  },
+  {
+    "id": 180,
+    "wbcode": "SEN",
+    "displayname": "РЕСПУБЛИКА СЕНЕГАЛ",
+    "gspid": 173,
+    "gnkid": null
+  },
+  {
+    "id": 181,
+    "wbcode": "VCT",
+    "displayname": "СЕНТ-ВИНСЕНТ И ГРЕНАДИНЫ",
+    "gspid": 195,
+    "gnkid": null
+  },
+  {
+    "id": 182,
+    "wbcode": "KNA",
+    "displayname": "ФЕДЕРАЦИЯ СЕНТ-КИТС (СЕНТ-КРИСТОФЕР) И НЕВИС",
+    "gspid": 225,
+    "gnkid": null
+  },
+  {
+    "id": 183,
+    "wbcode": "LCA",
+    "displayname": "СЕНТ-ЛЮСИЯ",
+    "gspid": 197,
+    "gnkid": null
+  },
+  {
+    "id": 184,
+    "wbcode": "SRB",
+    "displayname": "РЕСПУБЛИКА СЕРБИЯ",
+    "gspid": 504,
+    "gnkid": null
+  },
+  {
+    "id": 185,
+    "wbcode": "SGP",
+    "displayname": "РЕСПУБЛИКА СИНГАПУР",
+    "gspid": 174,
+    "gnkid": null
+  },
+  {
+    "id": 186,
+    "wbcode": "SYR",
+    "displayname": "СИРИЙСКАЯ АРАБСКАЯ РЕСПУБЛИКА",
+    "gspid": 198,
+    "gnkid": null
+  },
+  {
+    "id": 187,
+    "wbcode": "SVK",
+    "displayname": "СЛОВАЦКАЯ РЕСПУБЛИКА",
+    "gspid": 199,
+    "gnkid": null
+  },
+  {
+    "id": 188,
+    "wbcode": "SVN",
+    "displayname": "РЕСПУБЛИКА СЛОВЕНИЯ",
+    "gspid": 175,
+    "gnkid": null
+  },
+  {
+    "id": 189,
+    "wbcode": "GBR",
+    "displayname": "СОЕДИНЕННОЕ КОРОЛЕВСТВО ВЕЛИКОБРИТАНИИ И СЕВЕРНОЙ ИРЛАНДИИ",
+    "gspid": 501,
+    "gnkid": null
+  },
+  {
+    "id": 190,
+    "wbcode": "SLB",
+    "displayname": "СОЛОМОНОВЫ ОСТРОВА",
+    "gspid": 205,
+    "gnkid": null
+  },
+  {
+    "id": 191,
+    "wbcode": "SOM",
+    "displayname": "СОМАЛИЙСКАЯ РЕСПУБЛИКА",
+    "gspid": 206,
+    "gnkid": null
+  },
+  {
+    "id": 192,
+    "wbcode": "SDN",
+    "displayname": "РЕСПУБЛИКА СУДАН",
+    "gspid": 176,
+    "gnkid": null
+  },
+  {
+    "id": 193,
+    "wbcode": "SUR",
+    "displayname": "РЕСПУБЛИКА СУРИНАМ",
+    "gspid": 177,
+    "gnkid": null
+  },
+  {
+    "id": 194,
+    "wbcode": "USA",
+    "displayname": "СОЕДИНЕННЫЕ ШТАТЫ АМЕРИКИ",
+    "gspid": 204,
+    "gnkid": null
+  },
+  {
+    "id": 195,
+    "wbcode": "SLE",
+    "displayname": "РЕСПУБЛИКА СЬЕРРА-ЛЕОНЕ",
+    "gspid": 178,
+    "gnkid": null
+  },
+  {
+    "id": 196,
+    "wbcode": "TJK",
+    "displayname": "РЕСПУБЛИКА ТАДЖИКИСТАН",
+    "gspid": 179,
+    "gnkid": null
+  },
+  {
+    "id": 197,
+    "wbcode": "THA",
+    "displayname": "КОРОЛЕВСТВО ТАИЛАНД",
+    "gspid": 74,
+    "gnkid": null
+  },
+  {
+    "id": 198,
+    "wbcode": "TWN",
+    "displayname": "ТАЙВАНЬ (В СОСТАВЕ КИТАЯ)",
+    "gspid": 211,
+    "gnkid": null
+  },
+  {
+    "id": 199,
+    "wbcode": "TZA",
+    "displayname": "ОБЪЕДИНЕННАЯ РЕСПУБЛИКА ТАНЗАНИЯ (ОРТ)",
+    "gspid": 104,
+    "gnkid": null
+  },
+  {
+    "id": 200,
+    "wbcode": "TCA",
+    "displayname": "ОСТРОВА ТЕРКС И КАЙКОС (БРИТ.)",
+    "gspid": 212,
+    "gnkid": null
+  },
+  {
+    "id": 201,
+    "wbcode": "TMP",
+    "displayname": "ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА ТИМОР-ЛЕСТЕ",
+    "gspid": 22,
+    "gnkid": null
+  },
+  {
+    "id": 202,
+    "wbcode": "TGO",
+    "displayname": "ТОГОЛЕЗСКАЯ РЕСПУБЛИКА",
+    "gspid": 213,
+    "gnkid": null
+  },
+  {
+    "id": 203,
+    "wbcode": "TKL",
+    "displayname": "ТОКЕЛАУ (ЮНИОН) (Н. ЗЕЛ.)",
+    "gspid": 214,
+    "gnkid": null
+  },
+  {
+    "id": 204,
+    "wbcode": "TON",
+    "displayname": "КОРОЛЕВСТВО ТОНГА",
+    "gspid": 75,
+    "gnkid": null
+  },
+  {
+    "id": 205,
+    "wbcode": "TTO",
+    "displayname": "РЕСПУБЛИКА ТРИНИДАД И ТОБАГО",
+    "gspid": 180,
+    "gnkid": null
+  },
+  {
+    "id": 206,
+    "wbcode": "TUV",
+    "displayname": "ТУВАЛУ",
+    "gspid": 215,
+    "gnkid": null
+  },
+  {
+    "id": 207,
+    "wbcode": "TUN",
+    "displayname": "ТУНИССКАЯ РЕСПУБЛИКА",
+    "gspid": 216,
+    "gnkid": null
+  },
+  {
+    "id": 208,
+    "wbcode": "TKM",
+    "displayname": "ТУРКМЕНИСТАН",
+    "gspid": 218,
+    "gnkid": null
+  },
+  {
+    "id": 209,
+    "wbcode": "TUR",
+    "displayname": "ТУРЕЦКАЯ РЕСПУБЛИКА",
+    "gspid": 217,
+    "gnkid": null
+  },
+  {
+    "id": 210,
+    "wbcode": "UGA",
+    "displayname": "РЕСПУБЛИКА УГАНДА",
+    "gspid": 181,
+    "gnkid": null
+  },
+  {
+    "id": 211,
+    "wbcode": "UZB",
+    "displayname": "РЕСПУБЛИКА УЗБЕКИСТАН",
+    "gspid": 182,
+    "gnkid": null
+  },
+  {
+    "id": 212,
+    "wbcode": "UKR",
+    "displayname": "УКРАИНА",
+    "gspid": 219,
+    "gnkid": null
+  },
+  {
+    "id": 213,
+    "wbcode": "WLF",
+    "displayname": "ОСТРОВА УОЛЛИС И ФУТУНА",
+    "gspid": 115,
+    "gnkid": null
+  },
+  {
+    "id": 214,
+    "wbcode": "URY",
+    "displayname": "ВОСТОЧНАЯ РЕСПУБЛИКА УРУГВАЙ",
+    "gspid": 21,
+    "gnkid": null
+  },
+  {
+    "id": 215,
+    "wbcode": "FRO",
+    "displayname": "ФАРЕРСКИЕ ОСТРОВА (В СОСТАВЕ ДАНИИ)",
+    "gspid": 220,
+    "gnkid": null
+  },
+  {
+    "id": 216,
+    "wbcode": "FJI",
+    "displayname": "РЕСПУБЛИКА ОСТРОВОВ ФИДЖИ",
+    "gspid": 183,
+    "gnkid": null
+  },
+  {
+    "id": 217,
+    "wbcode": "PHL",
+    "displayname": "РЕСПУБЛИКА ФИЛИППИНЫ",
+    "gspid": 184,
+    "gnkid": null
+  },
+  {
+    "id": 218,
+    "wbcode": "FIN",
+    "displayname": "ФИНЛЯНДСКАЯ РЕСПУБЛИКА",
+    "gspid": 226,
+    "gnkid": null
+  },
+  {
+    "id": 219,
+    "wbcode": "FLK",
+    "displayname": "ФОЛКЛЕНДСКИЕ ОСТРОВА (МАЛЬВИНСКИЕ)",
+    "gspid": 227,
+    "gnkid": null
+  },
+  {
+    "id": 220,
+    "wbcode": "ATF",
+    "displayname": "ФРАНЦУЗСКИЕ ЮЖНЫЕ ТЕРРИТОРИИ (ФР.)",
+    "gspid": null,
+    "gnkid": null
+  },
+  {
+    "id": 221,
+    "wbcode": "FRA",
+    "displayname": "ФРАНЦУЗСКАЯ РЕСПУБЛИКА",
+    "gspid": 229,
+    "gnkid": null
+  },
+  {
+    "id": 222,
+    "wbcode": "PYF",
+    "displayname": "ФРАНЦУЗСКАЯ ПОЛИНЕЗИЯ (ФР.)",
+    "gspid": 228,
+    "gnkid": null
+  },
+  {
+    "id": 223,
+    "wbcode": "HMD",
+    "displayname": "ОСТРОВ ХЕРД И ОСТРОВА МАКДОНАЛЬД",
+    "gspid": 502,
+    "gnkid": null
+  },
+  {
+    "id": 224,
+    "wbcode": "HRV",
+    "displayname": "РЕСПУБЛИКА ХОРВАТИЯ",
+    "gspid": 285,
+    "gnkid": null
+  },
+  {
+    "id": 225,
+    "wbcode": "CAF",
+    "displayname": "ЦЕНТРАЛЬНО-АФРИКАНСКАЯ РЕСПУБЛИКА (ЦАР)",
+    "gspid": 231,
+    "gnkid": null
+  },
+  {
+    "id": 226,
+    "wbcode": "TCD",
+    "displayname": "РЕСПУБЛИКА ЧАД",
+    "gspid": 505,
+    "gnkid": null
+  },
+  {
+    "id": 227,
+    "wbcode": "MNE",
+    "displayname": "РЕСПУБЛИКА ЧЕРНОГОРИЯ",
+    "gspid": 504,
+    "gnkid": null
+  },
+  {
+    "id": 228,
+    "wbcode": "CZE",
+    "displayname": "ЧЕШСКАЯ РЕСПУБЛИКА",
+    "gspid": 273,
+    "gnkid": null
+  },
+  {
+    "id": 229,
+    "wbcode": "CHL",
+    "displayname": "РЕСПУБЛИКА ЧИЛИ",
+    "gspid": 187,
+    "gnkid": null
+  },
+  {
+    "id": 230,
+    "wbcode": "CHE",
+    "displayname": "ШВЕЙЦАРСКАЯ КОНФЕДЕРАЦИЯ",
+    "gspid": 234,
+    "gnkid": null
+  },
+  {
+    "id": 231,
+    "wbcode": "SWE",
+    "displayname": "КОРОЛЕВСТВО ШВЕЦИЯ",
+    "gspid": 76,
+    "gnkid": null
+  },
+  {
+    "id": 232,
+    "wbcode": "SJM",
+    "displayname": "ШПИЦБЕРГЕН И ЯН-МАЙЕН (НОРВ.)",
+    "gspid": 235,
+    "gnkid": null
+  },
+  {
+    "id": 233,
+    "wbcode": "LKA",
+    "displayname": "ДЕМОКРАТИЧЕСКАЯ СОЦИАЛИСТИЧЕСКАЯ РЕСПУБЛИКА ШРИ-ЛАНКА",
+    "gspid": 42,
+    "gnkid": null
+  },
+  {
+    "id": 234,
+    "wbcode": "ECU",
+    "displayname": "РЕСПУБЛИКА ЭКВАДОР",
+    "gspid": 188,
+    "gnkid": null
+  },
+  {
+    "id": 235,
+    "wbcode": "GNQ",
+    "displayname": "РЕСПУБЛИКА ЭКВАТОРИАЛЬНАЯ ГВИНЕЯ",
+    "gspid": 189,
+    "gnkid": null
+  },
+  {
+    "id": 236,
+    "wbcode": "ALA",
+    "displayname": "ЭЛАНДСКИЕ ОСТРОВА",
+    "gspid": null,
+    "gnkid": null
+  },
+  {
+    "id": 237,
+    "wbcode": "SLV",
+    "displayname": "РЕСПУБЛИКА ЭЛ-САЛЬВАДОР",
+    "gspid": 257,
+    "gnkid": null
+  },
+  {
+    "id": 238,
+    "wbcode": "ERI",
+    "displayname": "ЭРИТРЕЯ",
+    "gspid": 236,
+    "gnkid": null
+  },
+  {
+    "id": 239,
+    "wbcode": "EST",
+    "displayname": "ЭСТОНСКАЯ РЕСПУБЛИКА",
+    "gspid": 237,
+    "gnkid": null
+  },
+  {
+    "id": 240,
+    "wbcode": "ETH",
+    "displayname": "ФЕДЕРАТИВНАЯ ДЕМОКРАТИЧЕСКАЯ  РЕСПУБЛИКА ЭФИОПИЯ",
+    "gspid": 238,
+    "gnkid": null
+  },
+  {
+    "id": 241,
+    "wbcode": "ZAF",
+    "displayname": "ЮЖНО-АФРИКАНСКАЯ РЕСПУБЛИКА",
+    "gspid": 284,
+    "gnkid": null
+  },
+  {
+    "id": 242,
+    "wbcode": "SGS",
+    "displayname": "ЮЖНАЯ ДЖОРДЖИЯ И ЮЖНЫЕ САНДВИЧЕВЫ ОСТРОВА",
+    "gspid": null,
+    "gnkid": null
+  },
+  {
+    "id": 243,
+    "wbcode": "JAM",
+    "displayname": "ЯМАЙКА",
+    "gspid": 239,
+    "gnkid": null
+  },
+  {
+    "id": 244,
+    "wbcode": "JPN",
+    "displayname": "ЯПОНИЯ",
+    "gspid": 240,
+    "gnkid": null
+  }
+]

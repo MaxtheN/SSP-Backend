@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Claim\Hl\**" />
+    <Compile Remove="Claim\Sys\**" />
+    <EmbeddedResource Remove="Claim\Hl\**" />
+    <EmbeddedResource Remove="Claim\Sys\**" />
+    <None Remove="Claim\Hl\**" />
+    <None Remove="Claim\Sys\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Aspose.Cells" Version="23.3.0" />
+	<PackageReference Include="DocumentFormat.OpenXml" Version="2.20.0" />
+	<PackageReference Include="EPPlus" Version="5.5.5" />
+    <PackageReference Include="FreeSpire.Doc" Version="11.6.0" />
+    <PackageReference Include="FreeSpire.PDF" Version="8.6.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.42" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.DynamicLinq" Version="6.2.14" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="QRCoderNetCore" Version="1.0.0" />
+    <PackageReference Include="Quartz" Version="3.8.0" />
+    <PackageReference Include="WbAccessControl.Sdk" Version="2024.9.1.1919" />
+    <PackageReference Include="WbImzo.Models" Version="2024.12.9.1512" />
+    <PackageReference Include="WbImzo.Proxy.Sdk" Version="2024.12.9.1512" />
+    <PackageReference Include="WEBASE.EF" Version="2024.5.30.1920" />
+    <PackageReference Include="WEBASE.Integration.EImzo" Version="2024.5.30.1840" />
+    <PackageReference Include="WEBASE.Integration.MSPD.Client" Version="2025.2.19.1620" />
+    <PackageReference Include="WEBASE.Integration.MSPD.Models" Version="2025.2.19.1621" />
+    <PackageReference Include="WEBASE.QRCode" Version="2024.5.7.1654" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\core\WEBASE.Integration.Manuals\WEBASE.Integration.Manuals.csproj" />
+    <ProjectReference Include="..\core\WEBASE.Notify.Sms.LuxContent\WEBASE.Notify.Sms.LuxContent.csproj" />
+    <ProjectReference Include="..\core\WEBASE.Notify.Sms\WEBASE.Notify.Sms.csproj" />
+    <ProjectReference Include="..\core\WEBASE.OfficeTools\WEBASE.OfficeTools.csproj" />
+    <ProjectReference Include="..\itg\MarkaziyBankIntegration\SspUis.Integration.BankCredit.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.AgroBank\SspUis.Integration.AgroBank.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.Bandlik\SspUis.Integration.Bandlik.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.Billing\SspUis.Integration.Billing.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.Bojxona\SspUis.Integration.Bojxona.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.Certificate\SspUis.Integration.Certificate.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.DavAktiv\SspUis.Integration.DavAktiv.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.DigitizationCenter\SspUis.Integration.DigitizationCenter.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.DocxToPdf\SspUis.Integration.DocxToPdf.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.DualContract\SspUis.Integration.DualContract.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.Edoc\SspUis.Integration.Edoc.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.Finance\SspUis.Integration.Finance.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.Investitsiya\SspUis.Integration.Investitsiya.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.MarkaziyBank\SspUis.Integration.MarkaziyBank.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.OneId\SspUis.Integration.OneId.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.OnlineMahalla\SspUis.Integration.OnlineMahalla.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.Soliq\SspUis.Integration.Soliq.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.Stat\SspUis.Integration.Stat.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.Sud\SspUis.Integration.Sud.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.TadbirkorFund\SspUis.Integration.TadbirkorFund.csproj" />
+    <ProjectReference Include="..\itg\SspUis.Integration.XalqBank\SspUis.Integration.XalqBank.csproj" />
+    <ProjectReference Include="..\mq\SspUis.RabbitMQ\SspUis.RabbitMQ.csproj" />
+    <ProjectReference Include="..\SspUis.DataLayer\SspUis.DataLayer.csproj" />
+  </ItemGroup>
+
+</Project>

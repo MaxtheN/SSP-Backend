@@ -1,0 +1,5 @@
+namespace SspUis.DataLayer.Repositories.Corruption;
+
+public class CreateJoinAntiCorruptionCertificateDlDto : JoinAntiCorruptionCertificateDlDto<CreateJoinAntiCorruptionCertificateDlDto>
+{
+}

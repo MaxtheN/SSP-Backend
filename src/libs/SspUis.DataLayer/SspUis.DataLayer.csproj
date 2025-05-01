@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="6.0.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.0" />
+    <PackageReference Include="WEBASE.EF" Version="2024.5.30.1920" />
+	<PackageReference Include="EFCoreSecondLevelCacheInterceptor" Version="3.9.2" />
+	<PackageReference Include="WEBASE.Salary.Core" Version="2024.11.29.944" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\core\WEBASE.OfficeTools\WEBASE.OfficeTools.csproj" />
+    <ProjectReference Include="..\SspUis.Core\SspUis.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EfClasses\Corruption\Sys\" />
+    <Folder Include="Repositories\Doc\BaseApplication\QueryObjects\" />
+    <Folder Include="Repositories\Hrm\Doc\CandidatesConfirmation\QueryObjects\" />
+    <Folder Include="Repositories\Hrm\Doc\PlannedCalculation\QueryObjects\" />
+    <Folder Include="Repositories\Hrm\Doc\OrderToSendBusinessTrip\QueryObjects\" />
+    <Folder Include="Repositories\Hrm\Hl\Department\QueryObjects\" />
+    <Folder Include="Repositories\My\public\" />
+    <Folder Include="Repositories\Sys\SendSmsConfig\QueryObjects\" />
+  </ItemGroup>
+
+</Project>

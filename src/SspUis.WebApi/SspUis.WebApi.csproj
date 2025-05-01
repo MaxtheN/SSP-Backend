@@ -1,0 +1,625 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>     </UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<!-- <GenerateDocumentationFile>True</GenerateDocumentationFile> -->
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="appdata\staticfiles\exceltemplates\NewFolder\**" />
+	  <Content Remove="appdata\staticfiles\exceltemplates\NewFolder\**" />
+	  <EmbeddedResource Remove="appdata\staticfiles\exceltemplates\NewFolder\**" />
+	  <None Remove="appdata\staticfiles\exceltemplates\NewFolder\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Hangfire.AspNetCore" Version="1.7.28" />
+		<PackageReference Include="Hangfire.MemoryStorage" Version="1.7.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" NoWarn="NU1605" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="6.0.0" NoWarn="NU1605" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.0" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+		<PackageReference Include="NetCore.AutoRegisterDi" Version="2.1.0" />
+		<PackageReference Include="Quartz" Version="3.8.0" />
+		<PackageReference Include="Quartz.AspNetCore" Version="3.8.0" />
+		<PackageReference Include="SSH.NET" Version="2023.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.2.3" />
+		<PackageReference Include="CacheManager.StackExchange.Redis" Version="1.2.0" />
+		<PackageReference Include="CacheManager.Serialization.Json" Version="1.2.0" />
+		<PackageReference Include="WEBASE.EF" Version="2024.5.30.1920" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="appdata\staticfiles\exceltemplates\Organization.xlsx">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\exceltemplates\Oked.xlsx">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\exceltemplates\Users.xlsx">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\exceltemplates\user_list.xlsx">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\exceltemplates\uz-cyrl\Users - Copy.xlsx">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ANTQUAB.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ANTQUABI.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ANTQUAI.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\arial.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\arialbd.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\arialbi.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ariali.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ARIALN.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ARIALNB.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ARIALNBI.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ARIALNI.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ariblk.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\bahnschrift.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\BKANT.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\BOOKOS.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\BOOKOSB.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\BOOKOSBI.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\BOOKOSI.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\BSSYM7.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\calibri.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\calibrib.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\calibrii.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\calibril.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\calibrili.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\calibriz.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\cambria.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\cambriab.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\cambriai.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\cambriaz.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\Candara.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\Candarab.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\Candarai.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\Candaral.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\Candarali.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\Candaraz.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\CENTURY.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\comic.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\comicbd.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\comici.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\comicz.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\consola.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\consolab.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\consolai.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\consolaz.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\constan.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\constanb.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\constani.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\constanz.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\corbel.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\corbelb.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\corbeli.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\corbell.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\corbelli.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\corbelz.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\cour.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\courbd.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\courbi.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\couri.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\DUBAI-BOLD.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\DUBAI-LIGHT.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\DUBAI-MEDIUM.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\DUBAI-REGULAR.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ebrima.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ebrimabd.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\fms_metadata.xml">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\framd.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\framdit.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\Gabriola.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\gadugi.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\gadugib.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\GARA.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\GARABD.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\GARAIT.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\georgia.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\georgiab.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\georgiai.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\georgiaz.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\GOTHIC.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\GOTHICB.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\GOTHICBI.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\GOTHICI.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\himalaya.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\holomdl2.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\impact.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\Inkfree.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\javatext.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\LeelaUIb.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\LEELAWAD.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\LEELAWDB.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\LeelawUI.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\LeelUIsl.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\lucon.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\l_10646.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\malgun.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\malgunbd.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\malgunsl.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\marlett.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\micross.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\mingliub.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\mmrtext.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\mmrtextb.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\monbaiti.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\msgothic.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\msjh.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\msjhbd.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\msjhl.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\MSUIGHUB.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\MSUIGHUR.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\msyh.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\msyhbd.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\msyhl.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\msyi.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\MTCORSVA.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\MTEXTRA.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\mvboli.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\Nirmala.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\NirmalaB.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\NirmalaS.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ntailu.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\ntailub.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\pala.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\palab.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\palabi.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\palai.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\phagspa.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\phagspab.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\REFSAN.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\REFSPCL.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\segmdl2.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\segoepr.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\segoeprb.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\segoesc.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\segoescb.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\segoeui.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\segoeuib.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\segoeuii.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\segoeuil.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\segoeuisl.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\segoeuiz.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\seguibl.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\seguibli.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\seguiemj.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\seguihis.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\seguili.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\seguisb.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\seguisbi.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\seguisli.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\seguisym.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\simsun.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\simsunb.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\Sitka.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\SitkaB.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\SitkaI.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\SitkaZ.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\StaticCache.dat">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\sylfaen.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\symbol.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\tahoma.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\tahomabd.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\taile.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\taileb.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\teamviewer15.otf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\times.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\timesbd.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\timesbi.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\timesi.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\trebuc.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\trebucbd.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\trebucbi.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\trebucit.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\verdana.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\verdanab.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\verdanai.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\verdanaz.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\webdings.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\wingding.ttf">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\WINGDNG2.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\WINGDNG3.TTF">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\YuGothB.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\YuGothL.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\YuGothM.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="appdata\staticfiles\fonts\YuGothR.ttc">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="SspUis.WebApi.xml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="appdata\staticfiles\exceltemplates\ru\" />
+	  <Folder Include="appdata\staticfiles\exceltemplates\uz-cyrl\" />
+	  <Folder Include="appdata\staticfiles\exceltemplates\uz-latn\" />
+	  <Folder Include="appdata\staticfiles\htmltemplates\en\" />
+	  <Folder Include="appdata\staticfiles\htmltemplates\ru\" />
+	  <Folder Include="appdata\staticfiles\htmltemplates\uz-cyrl\" />
+	  <Folder Include="appdata\staticfiles\htmltemplates\uz-latn\" />
+	  <Folder Include="appdata\staticfiles\wordtemplates\ru\" />
+	  <Folder Include="appdata\staticfiles\wordtemplates\uz-cyrl\" />
+	  <Folder Include="appdata\staticfiles\wordtemplates\uz-latn\DualContract\" />
+	  <Folder Include="appdata\tempfiles\doc-application-for-court-file\" />
+	  <Folder Include="appdata\tempfiles\doc-join-anti-corruption-result-files\" />
+	  <Folder Include="Controllers\Srv\Enum\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\libs\SspUis.BizLogicLayer\SspUis.BizLogicLayer.csproj" />
+	  <ProjectReference Include="..\libs\SspUis.Job\SspUis.Job.csproj" />
+	</ItemGroup>
+
+</Project>

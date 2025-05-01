@@ -1,0 +1,16 @@
+using SspUis.DataLayer.EfClasses;
+using WEBASE.Attributes;
+using WEBASE.EF;
+using WEBASE.Models;
+
+namespace SspUis.DataLayer.Repositories;
+
+public class UpdateStatusMemshipCertificateDlDto : EntityDto<UpdateStatusMemshipCertificateDlDto, MemshipCertificate>, IHaveIdProp<long>
+{
+    [LocalizedRequired]
+    [LocalizedRange(1, long.MaxValue)]
+    public long Id { get; set; }
+    [LocalizedRequired]
+    public int StatusId { get; set; }
+    public string Message { get; set; }
+}

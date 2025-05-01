@@ -1,0 +1,3 @@
+﻿namespace SspUis.DataLayer.Repositories;
+
+public class CreateJoinAntiCorruptionApplicationDlDto : JoinAntiCorruptionApplicationDlDto<CreateJoinAntiCorruptionApplicationDlDto> { }

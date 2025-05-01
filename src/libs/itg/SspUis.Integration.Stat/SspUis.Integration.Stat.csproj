@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WEBASE.EF" Version="2024.5.30.1920" />
+    <PackageReference Include="WEBASE.Salary.Core" Version="2024.11.29.944" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SspUis.DataLayer\SspUis.DataLayer.csproj" />
+  </ItemGroup>
+
+</Project>

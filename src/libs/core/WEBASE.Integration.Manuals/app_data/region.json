@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "wbcode": "tash",
+    "displayname": "Toshkent",
+    "gspid": 10,
+    "gnkid": "26"
+  },
+  {
+    "id": 2,
+    "wbcode": "tashreg",
+    "displayname": "Toshkent viloyati",
+    "gspid": 11,
+    "gnkid": "27"
+  },
+  {
+    "id": 3,
+    "wbcode": "and",
+    "displayname": "Andijon",
+    "gspid": 17,
+    "gnkid": "3"
+  },
+  {
+    "id": 4,
+    "wbcode": "sam",
+    "displayname": "Samarqand",
+    "gspid": 14,
+    "gnkid": "18"
+  },
+  {
+    "id": 5,
+    "wbcode": "kash",
+    "displayname": "Qashqadaryo",
+    "gspid": 18,
+    "gnkid": "10"
+  },
+  {
+    "id": 6,
+    "wbcode": "jiz",
+    "displayname": "Jizzax",
+    "gspid": 13,
+    "gnkid": "8"
+  },
+  {
+    "id": 7,
+    "wbcode": "bukh",
+    "displayname": "Buxoro",
+    "gspid": 20,
+    "gnkid": "6"
+  },
+  {
+    "id": 8,
+    "wbcode": "nav",
+    "displayname": "Navoiy",
+    "gspid": 21,
+    "gnkid": "12"
+  },
+  {
+    "id": 9,
+    "wbcode": "nam",
+    "displayname": "Namangan",
+    "gspid": 16,
+    "gnkid": "14"
+  },
+  {
+    "id": 10,
+    "wbcode": "sur",
+    "displayname": "Surxondaryo",
+    "gspid": 19,
+    "gnkid": "22"
+  },
+  {
+    "id": 11,
+    "wbcode": "sir",
+    "displayname": "Sirdaryo",
+    "gspid": 12,
+    "gnkid": "24"
+  },
+  {
+    "id": 12,
+    "wbcode": "fer",
+    "displayname": "Fargona",
+    "gspid": 15,
+    "gnkid": "30"
+  },
+  {
+    "id": 13,
+    "wbcode": "khor",
+    "displayname": "Xorazm",
+    "gspid": 22,
+    "gnkid": "33"
+  },
+  {
+    "id": 14,
+    "wbcode": "kk",
+    "displayname": "Qoraqalpogiston",
+    "gspid": 23,
+    "gnkid": "35"
+  }
+]

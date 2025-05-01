@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	<Version>$([System.DateTime]::Now.ToString(yyyy.MM.dd.HHmm))</Version>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenXmlPowerTools.NetCore" Version="1.1.0" />
+    <PackageReference Include="WEBASE.QRCode" Version="2024.5.7.1654" />
+  </ItemGroup>
+
+</Project>
